@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@819.v37d707a_71d9b_">
+  <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@1144.v61c3180fa_03f">
+    <parentIds>
+      <string>111</string>
+    </parentIds>
+    <id>112</id>
+    <startId>2</startId>
+    <result>
+      <name>SUCCESS</name>
+      <ordinal>0</ordinal>
+      <color>BLUE</color>
+      <completeBuild>true</completeBuild>
+    </result>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@1144.v61c3180fa_03f">
+      <startTime>1651247862975</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

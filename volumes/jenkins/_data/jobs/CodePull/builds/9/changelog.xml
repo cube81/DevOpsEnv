@@ -1,0 +1,10 @@
+commit 885febd026892984d800a958df0e7c96d6852ec0
+tree c72562637a80b1fe9af65bca78f817c0c5dd96be
+parent 720729d782f5afd8a3f47558ef2f503a4e171cdb
+author Kuba <jakub.porycki@gmail.com> 2022-02-16 19:20:06 +0000
+committer Kuba <jakub.porycki@gmail.com> 2022-02-16 19:20:06 +0000
+
+    z 2
+
+
+:100644 100644 39502042e32b39b5a6c10416da48adb66fd7d9ae e2c893d5f74e811ca1d6e080ebe71f0e5292881b M	src/test/java/pl/pandait/panda/PandaApplicationSeleniumTest.java

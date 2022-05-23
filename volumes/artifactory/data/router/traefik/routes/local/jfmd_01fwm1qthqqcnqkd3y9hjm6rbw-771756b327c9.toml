@@ -1,0 +1,59 @@
+# This template is used to create routing rules for Traefik
+# References: https://doc.traefik.io/traefik/reference/dynamic-configuration/file/
+#             https://doc.traefik.io/traefik/routing/routers
+#             https://doc.traefik.io/traefik/routing/services
+
+[http.routers]
+
+
+
+  [http.routers.jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9-0-rule0-internal]
+    entryPoints = ["internal"]
+    service = "jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9-0"
+
+
+    rule = "PathPrefix(`/metadata/`)"
+    middlewares = ["jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9-0-0-strip"]
+
+
+  [http.routers.jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9-0-rule0-external]
+    entryPoints = ["external"]
+    service = "jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9-0"
+
+
+    rule = "PathPrefix(`/metadata/`)"
+    middlewares = ["jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9-0-0-strip","mtls"]
+
+
+
+
+
+[http.services]
+
+    [http.services.jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9-0.loadBalancer]
+      passHostHeader = false
+    [[http.services.jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9-0.loadBalancer.servers]]
+      url = "http://localhost:8086"
+
+
+
+
+ 
+   
+     
+   
+  
+
+
+
+[http.middlewares]
+
+
+
+    
+        
+        
+            [http.middlewares.jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9-0-0-strip.stripPrefix]
+              prefixes = ["/metadata/"]
+        
+    

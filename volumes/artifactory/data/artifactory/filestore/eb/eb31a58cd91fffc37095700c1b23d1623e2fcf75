@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>pl.jp</groupId>
+  <artifactId>jpapp</artifactId>
+  <version>0.0.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20220519.091007</timestamp>
+      <buildNumber>20</buildNumber>
+    </snapshot>
+    <lastUpdated>20220519091516</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.2-20220519.091516-21</value>
+        <updated>20220519091516</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.2-20220519.091007-20</value>
+        <updated>20220519091007</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

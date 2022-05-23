@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.configfiles.GlobalConfigFiles plugin="config-file-provider@3.9.0">
+  <configs class="sorted-set">
+    <comparator class="org.jenkinsci.plugins.configfiles.ConfigByIdComparator"/>
+    <org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig>
+      <id>af103f09-255e-4cd9-be6c-c5bf6a20a9f5</id>
+      <name>Creds</name>
+      <comment>User settings</comment>
+      <content>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+
+&lt;settings xmlns=&quot;http://maven.apache.org/SETTINGS/1.0.0&quot;
+          xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+          xsi:schemaLocation=&quot;http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd&quot;&gt;
+
+  &lt;pluginGroups&gt;&lt;/pluginGroups&gt;
+  &lt;proxies&gt;&lt;/proxies&gt;
+
+  &lt;servers&gt;
+    &lt;server&gt;
+      &lt;id&gt;artifactorycompose&lt;/id&gt;
+      &lt;username&gt;admin&lt;/username&gt;
+      &lt;password&gt;Pandapass1&lt;/password&gt;
+    &lt;/server&gt;
+  &lt;/servers&gt;
+
+  &lt;mirrors&gt;&lt;/mirrors&gt;
+  &lt;profiles&gt;&lt;/profiles&gt;
+&lt;/settings&gt;</content>
+      <providerId>org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig</providerId>
+      <serverCredentialMappings>
+        <org.jenkinsci.plugins.configfiles.maven.security.ServerCredentialMapping>
+          <serverId>artifactorycompose</serverId>
+          <credentialsId>41be85bd-81ca-4a67-be06-f1c444fe6e31</credentialsId>
+        </org.jenkinsci.plugins.configfiles.maven.security.ServerCredentialMapping>
+      </serverCredentialMappings>
+      <isReplaceAll>false</isReplaceAll>
+    </org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig>
+  </configs>
+</org.jenkinsci.plugins.configfiles.GlobalConfigFiles>

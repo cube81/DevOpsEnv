@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Plugin-Dependencies: nant:1.4.1;resolution:=optional,config-file-provi
+ der:2.15,ant:1.2,junit:1.18
+Long-Name: Ivy Plugin
+Plugin-Developers: :hibou:,Martin Ficker:martinficker:,:jmetcalf:,Timo
+ thy Bingaman:tbingaman:,Gregory Boissinot:gboissinot:,Kevin Formsma:a
+ rothian:
+Group-Id: org.jenkins-ci.plugins
+Minimum-Java-Version: 1.8
+Extension-Name: ivy
+Jenkins-Version: 2.140
+Plugin-Version: 2.2
+Url: https://wiki.jenkins.io/display/JENKINS/Ivy+Plugin
+Short-Name: ivy
+

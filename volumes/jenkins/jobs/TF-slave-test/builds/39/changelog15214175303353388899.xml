@@ -1,0 +1,10 @@
+commit 7bc423831bfc664f4b90f4d1ffbf468ee04e3a86
+tree 383cc13c890684c154f19b4a8b20bfb9b8a5805a
+parent 6ee22439e1f60b29911e76e9e15cc14347162a4e
+author Kuba <jp@pgms.pl> 2022-05-20 10:07:23 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 10:07:23 +0000
+
+    zmian w tf 13
+
+
+:100644 100644 b5643263043d555311c0a2de7541adfbe6943a01 5f9880c06cf7e7c6bdad02827d9ebe348626a985 M	infrastructure/terraform/provider.tf

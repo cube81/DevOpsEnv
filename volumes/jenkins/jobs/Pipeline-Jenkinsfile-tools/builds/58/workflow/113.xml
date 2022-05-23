@@ -1,0 +1,49 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@820.vd1a_6cc65ef33">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2692.v76b_089ccd026">
+    <parentIds>
+      <string>112</string>
+    </parentIds>
+    <id>113</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.CoreWrapperStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2692.v76b_089ccd026">
+      <arguments>
+        <entry>
+          <string>delegate</string>
+          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@318.va_f3ccb_729b_71">
+            <symbol>configFileProvider</symbol>
+            <arguments class="tree-map">
+              <entry>
+                <string>&lt;anonymous&gt;</string>
+                <list>
+                  <org.jenkinsci.plugins.workflow.cps.UninstantiatedDescribableWithInterpolation plugin="workflow-cps@2692.v76b_089ccd026">
+                    <symbol>configFile</symbol>
+                    <arguments class="linked-hash-map">
+                      <entry>
+                        <string>fileId</string>
+                        <string>af103f09-255e-4cd9-be6c-c5bf6a20a9f5</string>
+                      </entry>
+                      <entry>
+                        <string>variable</string>
+                        <string>MAVEN_GLOBAL_SETTINGS</string>
+                      </entry>
+                    </arguments>
+                    <interpolatedStrings/>
+                  </org.jenkinsci.plugins.workflow.cps.UninstantiatedDescribableWithInterpolation>
+                </list>
+              </entry>
+            </arguments>
+          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1153.vb_912c0e47fb_a_">
+      <startTime>1653122739342</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

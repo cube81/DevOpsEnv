@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@819.v37d707a_71d9b_">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2689.v434009a_31b_f1">
+    <parentIds>
+      <string>42</string>
+    </parentIds>
+    <id>43</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.BodyInvocationAction plugin="workflow-api@1144.v61c3180fa_03f"/>
+    <wf.a.LabelAction plugin="workflow-api@1144.v61c3180fa_03f">
+      <displayName>Build and Junit</displayName>
+    </wf.a.LabelAction>
+    <wf.a.TimingAction plugin="workflow-api@1144.v61c3180fa_03f">
+      <startTime>1652444466814</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

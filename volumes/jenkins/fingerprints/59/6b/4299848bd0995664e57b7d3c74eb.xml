@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-05-20 10:19:01.421 UTC</timestamp>
+  <md5sum>596b4299848bd0995664e57b7d3c74eb</md5sum>
+  <fileName>Credential id=awsjp3-akid name=AKIARF5E2KKOZPSX6TOU</fileName>
+  <usages>
+    <entry>
+      <string>Tool test</string>
+      <ranges>40,42</ranges>
+    </entry>
+    <entry>
+      <string>TF-slave-test</string>
+      <ranges>43-45</ranges>
+    </entry>
+    <entry>
+      <string>Pipeline-Jenkinsfile-tools</string>
+      <ranges>56-60</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

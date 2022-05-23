@@ -1,0 +1,522 @@
+Started by user [8mha:////4MiU8VJN9gVaUODU6IF80AxuYblFwoYVU32YJ0Yw1jaxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+[8mha:////4ObVEWTA4kbGYEDhZQiWQuWhNKZPrbe/5ptxH67v6rNUAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4MolFYUbGWsniGuRavlFFte0K9nN4Eim2eYg+YrY1ypIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Nsld8EsFEN20nW8gEQKVo9f5/jVDYaQvVN9rMM0PMNyAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZJ/eT83ILSktQi/ZT85OzUIlUjl+KcxLJUfQBxMohpzgAAAA==[0mdocker-slave in /home/jenkins/workspace/Pipeline-groovy_script
+[8mha:////4HFI3yNCTGoni57WdhvNyZSvy8I4z35BRMq6vkdbYEDKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4N+uFNmj5HFqoO6BMc8pug6ttwKFn6a4qHEjiWWkpzmwAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] sh
++ mvn help:evaluate -Dexpression=project.ArtifactId -q -DforceStdout
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[8mha:////4HOQvga42Nvjg2NNmohbSnRJM6bB/Efwyh6d1MRqf5/YAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGBtjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED+qfHravAAAAA==[0m[Pipeline] sh
++ mvn help:evaluate -Dexpression=project.version -q -DforceStdout
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[8mha:////4CkVl9pCLrqiVpA1vGJ/7RL0ymUTwpZx54vogv8VQuqYAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmFgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHMswPa1h/gB601hw7wAAAA=[0m[Pipeline] tool
+[Ansible] $ sh -e /home/jenkins/tools/com.cloudbees.jenkins.plugins.customtools.CustomTool/Ansible/hudson6733422342035993181.sh
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gnupg is already the newest version (2.2.4-1ubuntu1.4).
+0 upgraded, 0 newly installed, 0 to remove and 12 not upgraded.
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:51
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:51
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:52
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:52
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:53
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:53
+Warning: apt-key output should not be parsed (stdout is not a terminal)
+Executing: /tmp/apt-key-gpghome.tmR1UR7Fwi/gpg.1.sh --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+gpg: key 93C4A3FD7BB9C367: "Launchpad PPA for Ansible, Inc." not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 https://download.docker.com/linux/ubuntu bionic InRelease [64.4 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu bionic InRelease
+Hit:3 http://ppa.launchpad.net/ansible/ansible/ubuntu trusty InRelease
+Get:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+Get:5 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages [29.5 kB]
+Get:6 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+Get:7 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+Get:8 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [2277 kB]
+Get:9 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [3195 kB]
+Get:10 http://archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [966 kB]
+Get:11 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [1503 kB]
+Get:12 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [2761 kB]
+Get:13 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [932 kB]
+Fetched 12.0 MB in 2s (6716 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+25 packages can be upgraded. Run 'apt list --upgradable' to see them.
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:51
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:51
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:52
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:52
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:53
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:53
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:54
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:54
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:51
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:51
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:52
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:52
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:53
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:53
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:54
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:54
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ansible is already the newest version (2.9.27-1ppa~trusty).
+0 upgraded, 0 newly installed, 0 to remove and 25 not upgraded.
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:51
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:51
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:52
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:52
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:53
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:53
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:54
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:50 and /etc/apt/sources.list:54
+[8mha:////4OXPHB5ANlZgbT6P+eJ/P97Wtg385D/rua17lGltzXMpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0YUBCTKxRFk4QkhDSRv+3SUo7cSKuxh0IVGLCkiXbkvWeL6hThCNFx1uLncekPe/D6EriE8XuGmjiLV24JkwULJd2kmTsaamSsoVFrIKVgLVFHSh5dBk2olV31QSFrjnnWLaDgMqbAR7ARCFnFfO3zBG2t9Ekwh/nLwDmPgPbFe8/v/oN6uTAxMAAAAA=[0m[Pipeline] withEnv
+[8mha:////4PRuTrJU5K/bnPIpBVcEbcKksQqL5+E7G4/iBDgWmUbxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
+[8mha:////4J7scYK2YeSguLzxKBZpahSCTO1Uq5WjXQzI1f3X1XicAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] stage
+[8mha:////4I7w16zwNivyUaNhCjf8dqNDB19KR32nSvZtePetXygkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4KsmxYEY6dQ8BzVNY9j94r17fjlBXb2PZ+OtnpYahrgrAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] tool
+[8mha:////4PDbdO5SccQ97JiZ4P77VKrSTU6PuIZbzp9jvLB4HygxAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4H9QdLQBMi8BZV9FPUw7hoIILnq52QHtRBsmiJMNJCmVAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+ATnVfPq+AAAA[0m[Pipeline] }
+[8mha:////4LKcyy7WvvnTpKwAI8Bzksjd4a88xZ3GkJQtrs2hxphwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bgo2J0a+AAAA[0m[Pipeline] // stage
+[8mha:////4BQRGqYx0TyMHaE8E8G7SX+MVk6MuqCzGNRtEKzWveRQAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjGiSEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8A6xK50zBAAAA[0m[Pipeline] withEnv
+[8mha:////4AKzYpyB/OE3AgdkgEFEBCkNXfA+MN11xb+GW7E7jGnuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4BdqzetmGpXPA+/RPTyYys9SzolfwAWIE7V+w5/Ui9DfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] stage
+[8mha:////4JqBOmBBRT8e83ckkeS9RFCP8oYyYRH5F/F0ETebph4XAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (Clear running apps)
+[8mha:////4KXJMYlWVUo0kYJuMbvzbKvgS2nkVC6ouKp5jS6DiHCTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] tool
+[8mha:////4MMcAoLxp7UN7QR3PwY79xyhIagwSdteJmC3AoYRXpOKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4EonKkvNA4bjki+snhiJ7s3U9+rlQRL6OXBHMwkKs0CiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUdEOIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7fbam+TyrN7f3gRDCAAAA[0m[Pipeline] withEnv
+[8mha:////4NwIYbe9EgVgafhqsPEMD+vF6gKUTew4ha8qauZs5axjAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4AtuSixqSzVmEcqvfieMMS0WCJM5TndhMXcmmfPNXWq7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] pwd
+[8mha:////4IyNXdCNG3YUdWgi2mM6RnSDNMHwTbqezRh8ebwtFZeQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN/E8fGG+AAAA[0m[Pipeline] sh
++ docker rm -f jpapp
+jpapp
+[8mha:////4IGWsQ/S6VYFr8BNXpGxXWaJEsTQpypmOaXkxl6EUnfJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFAXH9DvgAAAA==[0m[Pipeline] }
+[8mha:////4GeRvFCE/LakqhZKOg0rAZ+jogQFMtFMPg4Hgfk8iUdGAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8bCsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DXO/JP++AAAA[0m[Pipeline] // withEnv
+[8mha:////4BWFRtgoj0KM0Jl1k78Ga3J0Aeq6Nia1PIfPTYLaVs8dAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqEAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AHth42yvgAAAA==[0m[Pipeline] }
+[8mha:////4H6JQUfaAR+JEpo0jMLP9IHsDUN5Ioi3vRCkHOFzB/0eAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqEAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdIdd2/wHeZNYOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Ab5q704pYfZfb0wOJIQ6JuWc50teIq6439vPhKyBgEvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0OdkipwgAAAA==[0m[Pipeline] stage
+[8mha:////4AkrjfxumEWYtpt6TMqIJ+vmRy+Rw27057jieq69tHVpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (Get Code)
+[8mha:////4N61S7xGmcTZS9VkhF6Q6zTrArZveZEcG5/hjEdRWyluAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] tool
+[8mha:////4Hb3dwRvORV9CH7dgLWwnw1/snWL1lQIRmDPJmkTa9eVAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f9+DRbb4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4NtSV4spQxEo8fPhDagtebluvPN0+q1Kt1U95nQ3B8AkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAcRgVzbCAAAA[0m[Pipeline] withEnv
+[8mha:////4DNA/gboLMuE8aZxMYEuHrYff4lsxzu30xCmDbGQlbj7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] {
+[8mha:////4KtWLMgZ10nfy4HkYW3i9uP0zS1kf6LG4G1uf+VIwnKaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN6Ew6eS+AAAA[0m[Pipeline] pwd
+[8mha:////4JPAWRMkmSEd1rj+87HZlwGxhdZMRZEshGqJe95MYy/qAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHgAfL9vgAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+Checking out Revision dd8e1052f09eba18e1e06ea235ac8bd8bb9e2e92 (refs/remotes/origin/main)
+Commit message: "zmiana nazw"
+ > git rev-parse --resolve-git-dir /home/jenkins/workspace/Pipeline-groovy_script/.git # timeout=10
+ > git config remote.origin.url https://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@github.com/cube81/jp_application.git/ # timeout=10
+Fetching upstream changes from https://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@github.com/cube81/jp_application.git/
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://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@github.com/cube81/jp_application.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dd8e1052f09eba18e1e06ea235ac8bd8bb9e2e92 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main dd8e1052f09eba18e1e06ea235ac8bd8bb9e2e92 # timeout=10
+ > git rev-list --no-walk 99332b30d4d0d53eed20d6e15847cd2f5f15d24a # timeout=10
+[8mha:////4LUl69JI66t6isIaFzAyiLA9Qx9maMQ+GW3GxxmfcrP1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3wonovvgAAAA==[0m[Pipeline] }
+[8mha:////4FmuzJlvwHTZzjuLyt31apM4HDuRqugPRKK5lbeDMsPMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8NBIZO+AAAA[0m[Pipeline] // withEnv
+[8mha:////4DpED+cF1Rn0LF6dl5Wrf98Q4GIQZ82lXGpuvMhrBkfaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICgg6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trvPgra4wG+AAAA[0m[Pipeline] }
+[8mha:////4Ha4sxhVRevZtJJAU+UnjyGR7xXd1sL1DiZAqIDSncBPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICgg6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5dpvPzk5uL2+AAAA[0m[Pipeline] // stage
+[8mha:////4C6QPyZvniSmIOOzv1eLSsdBFC08TfXqn9j8owTzGtHAAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUICQG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bbvt5Vm+L6SchwgAAAA==[0m[Pipeline] stage
+[8mha:////4FFceYuU+HM7L2ioVeAEMHSJ30pEkk23fVoMRSDhqx5uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (Build and Junit)
+[8mha:////4Fh4B3KED9CCUY0vNwvN1d5i+aiXECUUc9J6skOxqJhUAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] tool
+[8mha:////4G2/5pfxuQemoyNF7g8SzYByrFFxj5YBFROxaGLLmSwDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBsRJnqO+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Hdir75WJtsL2pEjoyR3NaA7+1aFXGredAxLS/E+HKAiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LDw+vzJLCAAAA[0m[Pipeline] withEnv
+[8mha:////4KLHGUG4oU/+NpbM697cHaY8Ue7GvXTmF1v5bAgRhMVvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] {
+[8mha:////4E5Sse/HPnIX6QefMY0dMOYZ9x9JCA8fZGmFapYv69ZSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< pl.jp:jpapp >-----------------------------
+[INFO] Building jp 0.0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ jpapp ---
+[INFO] Deleting /home/jenkins/workspace/Pipeline-groovy_script/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/Pipeline-groovy_script/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/Pipeline-groovy_script/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/Pipeline-groovy_script/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ jpapp ---
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ jpapp ---
+[INFO] Building jar: /home/jenkins/workspace/Pipeline-groovy_script/target/jpapp-0.0.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ jpapp ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ jpapp ---
+[INFO] Installing /home/jenkins/workspace/Pipeline-groovy_script/target/jpapp-0.0.2-SNAPSHOT.jar to /root/.m2/repository/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-SNAPSHOT.jar
+[INFO] Installing /home/jenkins/workspace/Pipeline-groovy_script/pom.xml to /root/.m2/repository/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.719 s
+[INFO] Finished at: 2022-05-13T12:21:10Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4K0XtUr5vd9RfvqGkfVd5W+wKdeiYFQjHeebvMgkI6nEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwuM6AvgAAAA==[0m[Pipeline] }
+[8mha:////4MXdpceF8/6yJAtIHD0wsrcGxZwKbYsXtNZyxTjYWcYvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCATQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHa0rF2vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4O5JpDSA6uv4Rfqvmr2jVCwLsPlv9i2gvr7qmtP8Sv8pAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wHw9YfNvgAAAA==[0m[Pipeline] }
+[8mha:////4CUpZuJWMIc18VGHqX0EYVIwQnd9OJGKZtuqSfWWteYzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRVAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QHItxQ8vgAAAA==[0m[Pipeline] // stage
+[8mha:////4DBFcRz9m7vKGJEqIl6e+fPYKJEMYaT1ZkuIhJQsmFAJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCCEG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bbvt5Vm+aMQxMwgAAAA==[0m[Pipeline] stage
+[8mha:////4Dy6SUeQZEAxqAF5PWaHZ0gkABDGQLzPpIaYh8246JKGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] { (Build Docker image)
+[8mha:////4AxJ1byoHBSVSs6t9A6bK3iGMG7LRACujI+EyNt/nEqsAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f4x1Rq74AAAA=[0m[Pipeline] tool
+[8mha:////4MHPUb6KNQglRxfBYPMQeALCB2tDewoAvAyl4Lc1ITfjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBiBOfIC+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4AZqoEK1cF/O5X0VrN2MNh6p+m3V+ICITdUa+T+LIAS2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ATEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD/IueU3CAAAA[0m[Pipeline] withEnv
+[8mha:////4AZC8S/bCbiVA9okLTHrHupSVRY1kawY++fb7AXL6im4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] {
+[8mha:////4N0lBuW8faGOYSFW9ueOvceiOJariiY749y5CSZaNiNZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN5s4RMC+AAAA[0m[Pipeline] sh
++ mvn package -Pdocker
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< pl.jp:jpapp >-----------------------------
+[INFO] Building jp 0.0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/Pipeline-groovy_script/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/Pipeline-groovy_script/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/Pipeline-groovy_script/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ jpapp ---
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ jpapp ---
+[INFO] Building jar: /home/jenkins/workspace/Pipeline-groovy_script/target/jpapp-0.0.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ jpapp ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- dockerfile-maven-plugin:1.4.0:build (default) @ jpapp ---
+[INFO] Building Docker context /home/jenkins/workspace/Pipeline-groovy_script
+[INFO] 
+[INFO] Image will be built as jpapp:0.0.2-SNAPSHOT
+[INFO] 
+[INFO] Step 1/4 : FROM openjdk:11.0
+[INFO] 
+[INFO] Pulling from library/openjdk
+[INFO] Image 67e8aa6c8bbc: Pulling fs layer
+[INFO] Image 627e6c1e1055: Pulling fs layer
+[INFO] Image 0670968926f6: Pulling fs layer
+[INFO] Image 5a8b0e20be4b: Pulling fs layer
+[INFO] Image 7a93fb438607: Pulling fs layer
+[INFO] Image 400f1e54bef0: Pulling fs layer
+[INFO] Image f0b65b53f1a4: Pulling fs layer
+[INFO] Image 7a93fb438607: Waiting
+[INFO] Image 400f1e54bef0: Waiting
+[INFO] Image f0b65b53f1a4: Waiting
+[INFO] Image 5a8b0e20be4b: Waiting
+[INFO] Image 0670968926f6: Downloading
+[INFO] Image 67e8aa6c8bbc: Downloading
+[INFO] Image 0670968926f6: Verifying Checksum
+[INFO] Image 0670968926f6: Download complete
+[INFO] Image 627e6c1e1055: Downloading
+[INFO] Image 627e6c1e1055: Download complete
+[INFO] Image 5a8b0e20be4b: Downloading
+[INFO] Image 67e8aa6c8bbc: Download complete
+[INFO] Image 67e8aa6c8bbc: Extracting
+[INFO] Image 7a93fb438607: Downloading
+[INFO] Image 7a93fb438607: Verifying Checksum
+[INFO] Image 7a93fb438607: Download complete
+[INFO] Image 400f1e54bef0: Downloading
+[INFO] Image 400f1e54bef0: Verifying Checksum
+[INFO] Image 400f1e54bef0: Download complete
+[INFO] Image 5a8b0e20be4b: Verifying Checksum
+[INFO] Image 5a8b0e20be4b: Download complete
+[INFO] Image f0b65b53f1a4: Downloading
+[INFO] Image 67e8aa6c8bbc: Pull complete
+[INFO] Image 627e6c1e1055: Extracting
+[INFO] Image 627e6c1e1055: Pull complete
+[INFO] Image 0670968926f6: Extracting
+[INFO] Image 0670968926f6: Pull complete
+[INFO] Image 5a8b0e20be4b: Extracting
+[INFO] Image f0b65b53f1a4: Verifying Checksum
+[INFO] Image f0b65b53f1a4: Download complete
+[INFO] Image 5a8b0e20be4b: Pull complete
+[INFO] Image 7a93fb438607: Extracting
+[INFO] Image 7a93fb438607: Pull complete
+[INFO] Image 400f1e54bef0: Extracting
+[INFO] Image 400f1e54bef0: Pull complete
+[INFO] Image f0b65b53f1a4: Extracting
+[INFO] Image f0b65b53f1a4: Pull complete
+[INFO] Digest: sha256:786fb7184ee50c313dda54d1d9ee5f26bfce62bf0d6a6197e4686fa4c2a13309
+[INFO] Status: Downloaded newer image for openjdk:11.0
+[INFO]  ---> c644efd24273
+[INFO] Step 2/4 : ARG JAR_FILE=target/*.jar
+[INFO] 
+[INFO]  ---> Running in 33e68d619906
+[INFO] Removing intermediate container 33e68d619906
+[INFO]  ---> ed6cb8894410
+[INFO] Step 3/4 : COPY ${JAR_FILE} app.jar
+[INFO] 
+[INFO]  ---> 642667504dfc
+[INFO] Step 4/4 : ENTRYPOINT ["java","-jar","/app.jar"]
+[INFO] 
+[INFO]  ---> Running in bcbe76212960
+[INFO] Removing intermediate container bcbe76212960
+[INFO]  ---> 111a904f7f52
+[INFO] Successfully built 111a904f7f52
+[INFO] Successfully tagged jpapp:0.0.2-SNAPSHOT
+[INFO] 
+[INFO] Detected build of image with id 111a904f7f52
+[INFO] Building jar: /home/jenkins/workspace/Pipeline-groovy_script/target/jpapp-0.0.2-SNAPSHOT-docker-info.jar
+[INFO] Successfully built jpapp:0.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.356 s
+[INFO] Finished at: 2022-05-13T12:21:30Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4I0SDsTWGH8bX5IkEIMz0UZAcn3Z5E208UiYajiGn9D0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCA0JCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8B1Pq5vgAAAA==[0m[Pipeline] }
+[8mha:////4OgpXqZjgt3UM/UW5AfyE5XicLFnT6oebJL/lm1NC2PAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCqBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw81GhnivgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4ImWdzdKORA4W+rLYo/k0iC1W6lJBdlguDtt/9mmOhGHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw8hOYT9vgAAAA==[0m[Pipeline] }
+[8mha:////4DqtTqK7hyu8Jw3XIyB+htSPABoFeeH3jtVApNmefGEZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSRNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QEnf7yovgAAAA==[0m[Pipeline] // stage
+[8mha:////4A59E7HQHFrJK2HHy9npw0nHi86q3PUSAxE+8l1SQ08AAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSAgG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bbvt5Vm+/G+FgwgAAAA==[0m[Pipeline] stage
+[8mha:////4G4qfuh/96bzyHCGPRQAOhEsh3fCz9db1m7K77XEKIy8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAZRHx0bCAAAA[0m[Pipeline] { (Run Docker app)
+[8mha:////4InwINip7rQ+GAkiKtcM1q90b+G7nERTwbBk3yvRRwqPAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkQZR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fLvzCqr4AAAA=[0m[Pipeline] tool
+[8mha:////4Kko82mgnE6p/qPmWBdHOluYEn/DUKTNRC2sbZZLiT1vAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBm/N2bO+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4JoLW7Y1giqMI6PNKUCJHtdXbGFlrZ3zFLQt30HmiARTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AiEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD4qL1zvCAAAA[0m[Pipeline] withEnv
+[8mha:////4IndNicSgjp+rKPuJhYeG4CIcMCmRNwp7mDe/DUgEAwsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASgVHzvCAAAA[0m[Pipeline] {
+[8mha:////4MKZbtbNKnydZAMLjO6Njl4iIkSDI6VFgiZ+Lu0ni+BBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHrW/o6vgAAAA==[0m[Pipeline] sh
++ docker run -d -p 0.0.0.0:8080:8080 --name jpapp -t jpapp:0.0.2-SNAPSHOT
+30ebfc360af2e909c56055e5cd67a10deac8e2d3ad4edb41df00f84710b556b9
+[8mha:////4OTl+CLSSbOrHiEl02RangcYp8HLWsGj6CvxMu7KAnvaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGhBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Fb/uIvgAAAA==[0m[Pipeline] }
+[8mha:////4HCcOK1UfLAtVpdmYZMQLD3Q+VQ8Q6T5fKLTgvCk574PAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUQASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAfS1oeb4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4CRX1vmDOA5Mu+yQ34F0fu8Br7FvVbahcYqH/XjPpHyVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw9lgoXMvgAAAA==[0m[Pipeline] }
+[8mha:////4Cdcn50e54zclkCHX9VS398y0q2Clq7bV0b03yHju/uCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSRFAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QFLgoemvgAAAA==[0m[Pipeline] // stage
+[8mha:////4PI1JiR5i2cfk65DpwIB53mX5OzdzWIGxPjUTOycXxXQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDKgDYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlrsnW7D/P6g2uw8oNwgAAAA==[0m[Pipeline] stage
+[8mha:////4D07EUleXs2fbb0wEgNlTzQHBYNkEx6tz94RT7NcjstdAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxASGtDzzCAAAA[0m[Pipeline] { (Test Selenium)
+[8mha:////4H3nTbOLhOeWokmbLBKDcpdweNZbzbpDz+oLi9U5iFTVAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkQJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fW71ZT74AAAA=[0m[Pipeline] tool
+[8mha:////4GyMq6InUgPpUM9YqLH0xW+w2UI2r/8ARP1zf0TfzqrFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBpShwci+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4BiTsEnzhddQK0ZWVhynLXjzTTfxlEGRG4cvcdZJAPIvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAfV5u1TCAAAA[0m[Pipeline] withEnv
+[8mha:////4Gv5nvNh4rK730Y/gkR6KTS36/PWirYqoRJcRhJ5rQyJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUDRDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrNxKsBBbCAAAA[0m[Pipeline] {
+[8mha:////4KsGe/gB/5/Uz4YjUwpodvMJoSuyxfjvxlg8IKPft12uAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICHRKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBnZ6r6i+AAAA[0m[Pipeline] sh
++ mvn test -Pselenium
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< pl.jp:jpapp >-----------------------------
+[INFO] Building jp 0.0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/Pipeline-groovy_script/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/Pipeline-groovy_script/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/Pipeline-groovy_script/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ jpapp ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running pl.jp.jp.JpApplicationSeleniumTest
+12:21:35.892 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:21:35.903 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:21:35.929 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [pl.jp.jp.JpApplicationSeleniumTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+12:21:35.942 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [pl.jp.jp.JpApplicationSeleniumTest], using SpringBootContextLoader
+12:21:35.946 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pl.jp.jp.JpApplicationSeleniumTest]: class path resource [pl/jp/jp/JpApplicationSeleniumTest-context.xml] does not exist
+12:21:35.946 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pl.jp.jp.JpApplicationSeleniumTest]: class path resource [pl/jp/jp/JpApplicationSeleniumTestContext.groovy] does not exist
+12:21:35.946 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [pl.jp.jp.JpApplicationSeleniumTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:21:35.976 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [pl.jp.jp.JpApplicationSeleniumTest]
+12:21:36.062 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [pl.jp.jp.JpApplicationSeleniumTest]: using defaults.
+12:21:36.062 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:21:36.070 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+12:21:36.071 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+12:21:36.071 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@f68f0dc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@d2de489, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14bdbc74, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12591ac8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a7fe64f, org.springframework.test.context.event.EventPublishingTestExecutionListener@38145825, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41330d4f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1b66c0fb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3e0e1046, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@24c1b2d2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7dc19a70]
+12:21:36.074 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@9816741 testClass = JpApplicationSeleniumTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1e16c0aa testClass = JpApplicationSeleniumTest, locations = '{}', classes = '{class pl.jp.jp.JpApplication, class pl.jp.jp.JpApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5fbe4146, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7530ad9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@445b295b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6a2b953e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+12:21:36.083 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@9816741 testClass = JpApplicationSeleniumTest, testInstance = pl.jp.jp.JpApplicationSeleniumTest@383dc82c, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1e16c0aa testClass = JpApplicationSeleniumTest, locations = '{}', classes = '{class pl.jp.jp.JpApplication, class pl.jp.jp.JpApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5fbe4146, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7530ad9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@445b295b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6a2b953e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]]].
+12:21:36.101 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-05-13 12:21:36.351  INFO 28450 --- [           main] pl.jp.jp.JpApplicationSeleniumTest       : Starting JpApplicationSeleniumTest on cbc741f8c8f2 with PID 28450 (started by root in /home/jenkins/workspace/Pipeline-groovy_script)
+2022-05-13 12:21:36.353  INFO 28450 --- [           main] pl.jp.jp.JpApplicationSeleniumTest       : No active profile set, falling back to default profiles: default
+2022-05-13 12:21:37.206  INFO 28450 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-13 12:21:37.215  INFO 28450 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 12:21:37.216  INFO 28450 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-05-13 12:21:37.293  INFO 28450 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-13 12:21:37.293  INFO 28450 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 920 ms
+2022-05-13 12:21:37.540  INFO 28450 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-13 12:21:37.608  INFO 28450 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-05-13 12:21:37.944  INFO 28450 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-13 12:21:37.948  INFO 28450 --- [           main] pl.jp.jp.JpApplicationSeleniumTest       : Started JpApplicationSeleniumTest in 1.843 seconds (JVM running for 2.613)
+2022-05-13 12:21:38.215  INFO 28450 --- [           main] org.openqa.selenium.Capabilities         : Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+2022-05-13 12:21:40.138  INFO 28450 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+Uruchamiam test 1: Sprawdzenie napisu na stronie g??wnej
+2022-05-13 12:21:43.051  INFO 28450 --- [           main] org.openqa.selenium.Capabilities         : Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+2022-05-13 12:21:44.756  INFO 28450 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+Uruchamiam test 2: Sprawdzenie napisu na podstronie
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.152 sec - in pl.jp.jp.JpApplicationSeleniumTest
+2022-05-13 12:21:47.964  INFO 28450 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.683 s
+[INFO] Finished at: 2022-05-13T12:21:48Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4KMQCk6Aml8oH9nV233wbP5Wlvo/hW62PRDca7Th38+2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbNyj4eB++AAAA[0m[Pipeline] }
+[8mha:////4GlWybWZaR4jV1dYHcxEDKFyfoHaJUwi7FLpmgt9a8KyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUABCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/mj2AqvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4ICTE4WYFEcD21GComsUa5gqsAR/4Tm2sg/OpG5f+Wy0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw/PotqnvgAAAA==[0m[Pipeline] }
+[8mha:////4OSm/mKocHGOA59RagkGO/5KgSTnliByHJxDhX14WjJLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSRSAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QHQII/1vgAAAA==[0m[Pipeline] // stage
+[8mha:////4DQJg7GGeBN5EatBwQtnQWA0jTX1ce859S9m5HAoWEEeAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULICEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXbbz/P6g3pwRZ9wgAAAA==[0m[Pipeline] stage
+[8mha:////4N2i/FBE0wTAKFHTsqCAT/Bujr+r7ahB2s8KFZA4p8bJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAR33berCAAAA[0m[Pipeline] { (Deploy jar to artifactory)
+[8mha:////4G8PuHaVCLPBdRLbvPSAQlpr0CSQjH95UI/7HFbU0o+BAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSEglR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fsf/KvL4AAAA=[0m[Pipeline] tool
+[8mha:////4I5vQ6VUBTl+2xewzyIONT9e4aodQ2ZGSNMW6NEUKphmAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/e8M7Rpb4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4Ef6UHNo6P4skusDMHL9hjZtcESz35JU7pfEWMEhLi57AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUDRDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOVum22/+TyrN9ETkZDCAAAA[0m[Pipeline] withEnv
+[8mha:////4KdPjRjB2qO0t9LzaiZSzJuc25WDgZ7fPapl/kz4tegTAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] {
+[8mha:////4ETB1gCltLU5SidLCSSfg0Mvydt9svnqUVK/ZOQpDr8uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAfY0Sa7CAAAA[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [Creds] to file:/home/jenkins/workspace/Pipeline-groovy_script@tmp/config14504167146334018076tmp
+[8mha:////4GY6Ewtq+aW+kqGsfvFYabkpiqbH3yES4ZvXIcGG46YQAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD1KB9/zCAAAA[0m[Pipeline] {
+[8mha:////4GCkNtTZvwDg6AFTah+qs7Uwi4uu3Khpt2SrDgGFu/XEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNwf+WCm+AAAA[0m[Pipeline] sh
++ mvn -gs /home/jenkins/workspace/Pipeline-groovy_script@tmp/config14504167146334018076tmp deploy -Dmaven.test.skip=true -e
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< pl.jp:jpapp >-----------------------------
+[INFO] Building jp 0.0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/Pipeline-groovy_script/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ jpapp ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jpapp ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ jpapp ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ jpapp ---
+[INFO] Building jar: /home/jenkins/workspace/Pipeline-groovy_script/target/jpapp-0.0.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ jpapp ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ jpapp ---
+[INFO] Installing /home/jenkins/workspace/Pipeline-groovy_script/target/jpapp-0.0.2-SNAPSHOT.jar to /root/.m2/repository/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-SNAPSHOT.jar
+[INFO] Installing /home/jenkins/workspace/Pipeline-groovy_script/pom.xml to /root/.m2/repository/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ jpapp ---
+Downloading from artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/maven-metadata.xml
+Progress (1): 760 B                   Downloaded from artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/maven-metadata.xml (760 B at 5.1 kB/s)
+Uploading to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-20220513.122152-10.jar
+Progress (1): 0.3/27 MBProgress (1): 0.5/27 MBProgress (1): 0.8/27 MBProgress (1): 1.1/27 MBProgress (1): 1.4/27 MBProgress (1): 1.6/27 MBProgress (1): 1.9/27 MBProgress (1): 2.2/27 MBProgress (1): 2.4/27 MBProgress (1): 2.7/27 MBProgress (1): 3.0/27 MBProgress (1): 3.2/27 MBProgress (1): 3.5/27 MBProgress (1): 3.8/27 MBProgress (1): 4.1/27 MBProgress (1): 4.3/27 MBProgress (1): 4.6/27 MBProgress (1): 4.9/27 MBProgress (1): 5.1/27 MBProgress (1): 5.4/27 MBProgress (1): 5.7/27 MBProgress (1): 5.9/27 MBProgress (1): 6.2/27 MBProgress (1): 6.5/27 MBProgress (1): 6.8/27 MBProgress (1): 7.0/27 MBProgress (1): 7.3/27 MBProgress (1): 7.6/27 MBProgress (1): 7.8/27 MBProgress (1): 8.1/27 MBProgress (1): 8.4/27 MBProgress (1): 8.7/27 MBProgress (1): 8.9/27 MBProgress (1): 9.2/27 MBProgress (1): 9.5/27 MBProgress (1): 9.7/27 MBProgress (1): 10/27 MB Progress (1): 10/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 13/27 MBProgress (1): 13/27 MBProgress (1): 13/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 17/27 MBProgress (1): 17/27 MBProgress (1): 17/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 20/27 MBProgress (1): 20/27 MBProgress (1): 20/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 23/27 MBProgress (1): 23/27 MBProgress (1): 23/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 27/27 MBProgress (1): 27/27 MBProgress (1): 27/27 MBProgress (1): 27 MB                      Uploaded to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-20220513.122152-10.jar (27 MB at 36 MB/s)
+Uploading to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-20220513.122152-10.pom
+Progress (1): 4.1/4.9 kBProgress (1): 4.9 kB                        Uploaded to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-20220513.122152-10.pom (4.9 kB at 131 kB/s)
+Downloading from artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/maven-metadata.xml
+Progress (1): 363 B                   Downloaded from artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/maven-metadata.xml (363 B at 26 kB/s)
+Uploading to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/maven-metadata.xml
+Progress (1): 763 B                   Uploaded to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/maven-metadata.xml (763 B at 85 kB/s)
+Uploading to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/maven-metadata.xml
+Progress (1): 306 B                   Uploaded to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/maven-metadata.xml (306 B at 18 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.686 s
+[INFO] Finished at: 2022-05-13T12:21:53Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4DbCs5UcRvvYjs48mQo3g9kVesY9zd6UMNgpY24+l0l4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHfoxgkvgAAAA==[0m[Pipeline] }
+Deleting 1 temporary files
+[8mha:////4M4edrpK2tCi6Mgvmu9ijDyfF6Au7XJuGi311HXDy2TiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g3n4YvVvgAAAA==[0m[Pipeline] // configFileProvider
+[8mha:////4KWUWJpJr/6H9J0rLV4b/N9RSEkPuTbzHs0G1+PT3P1sAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN/hj3oe+AAAA[0m[Pipeline] }
+[8mha:////4G48KiWmKI1kjciaZek7UxDh6alE+wcjRufjjl+KiQCoAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCCUJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23fu+GPAb4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4MHnrHNeRJF+0cOEt1iOG9jXm/HrX9YNSFO+bdR4Ba/eAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQoSo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKzrXIf9B/yWrE2+AAAA[0m[Pipeline] }
+[8mha:////4NQEpLJfC+e9e6oHmI0rSTqzbN5eSls72abxU1z1XgvwAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6LgYkwMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJXVQz5Yf8B55gOZL8AAAA=[0m[Pipeline] // stage
+[8mha:////4MBiRhj4Ux1bXNbd26saUz5MnnfzaHDF0QhP+SClwVnqAAAAqB+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8giHVBSIitZKwwuMY4wT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhjgQMGKzmDvMGonBj/a1MREob94mkRHZ6EJI3kjGjM11Jrjgg2xgSVZDoWElUHtKTq0DGvZqbuqvEJbnTikbS8hd+0NHpDJZGYV+AtzgM11bCPhz/NXAPPAkNc7hqLe1p9r+QbuyDVzwwAAAA==[0m[Pipeline] stage
+[8mha:////4JoDCYqNhRDocWzs3JhGIoQXkEjBkOoJPSuuZ0ktMzP1AAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQRV+PE2rD4BLXUWmj+H9timXwiX813sELi5A2Xu0su3+sNpXdwIqdZr3Aw6KVho510SiySG66WIuvpwiShJ6tYq2JLnWrW2lJQsCrLoeCwUSgteYM6wJb34iEqK1BX5+DSduSQm+4OT8h4IgfhwlJmB7vb1HnCH+cvAOYxQFHv68UP32/5AeRSsaPEAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4Dg77vUuj0mFeWSYfNazbvVO3LTcmhchK/CQXhbd1c9nAAAApR+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYTDp0SpaK00nMDYxtixdoPt4FSciKtxB6JEomKK0bxp3vsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOwTVPvdYe5j/wUKhu8NwAAAAA==[0m[Pipeline] sh
++ docker stop jpapp
+jpapp
+[8mha:////4FXl15aePB9Ji5Y3Cc/XPlSP3Or/mWWNpPHRUfGQ9LjPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiA6lorXS8AJjG2PHugu2g1PxIr7GH4gSiYotVjvbzPsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOz7BNV+d5z78AUxGKcxwAAAAA==[0m[Pipeline] }
+[8mha:////4JlktcPxCad+KPieqdbM0uDXoFUzrAmg/TML4BeFQCo4AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7FIYeVY0WbSeIIYYgxkdjEJQuWJvJp3kIEZK3/x57/fvPcHNjHAmYPF1lDnKGqHvR/svHDk0N08j9jyFTVTZG9QmlFyY+oVJScDa7IcCgFbQ9pzdGQT7ESrnqr0imx5SWH+TgJy1zzgBZmYzUmFtMAUYH8fmsj08/wVwNT3CYrqcFy6+gI/QtkOwAAAAA==[0m[Pipeline] // stage
+[8mha:////4J2PSXsLAkPaUp21Op4wjTj1ZJjZifBlVV34km+/pyBDAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGk0cKhss3QeIJIYgxkdjFZhMoTeTXvYEZmrPzVf695rzesYoCaghWdwd5hbJ0Y/GjTExOF/uppEh1dREsYyRvRmKkhbU4LNsQGlmU5FBLWBltP0aFl2MhOPVTpFdryzCG5o4Tc6Ts8IZOpzCrwF+YA29uoI+Gv8zcA8zAwFNVuz5BXhw8l8JIUvwAAAA==[0m[Pipeline] }
+[8mha:////4GKiwjCMKNesOH6bKVmpfV025+Pred4fdDUrB1onTkOEAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGk0cKhss3QeIJIYgxkdjFZhMoTeTXvYEZmrPzVf695rzesYoCaghWdwd5hbJ0Y/GjTExOF/uppEh1dREsYyRvRmKkhbU4LNsQGlmU5FBLWBltP0aFl2MhOPVTpFdryzCG5o4Tc6Ts8IZOpzCrwF+YA29uoI+Gv8zcA8zAwFNXuwJBX+w8WE8movwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LuGtNcwkC3Xvv7va362OA73rPmb7R0ZrUdu1b+ueS20AAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDHQhR0VppeIFxjHFi3QX7glPxIr7GH4iIRMVWO9PM6w2LFOFI0cnWYucxGS/7MLjpyUyxuwbKsqWLNISJgpW1zTU19jRjTWxhniigVLC0aAIlj45hpVr90FXQ6Kozx8kdFBS+ucMThJrKrCN/YYywvg1NIvx1/gZg7HuGcrvZMYj9B51/AAa+AAAA[0m[Pipeline] }
+[8mha:////4EyhzBqGwfBGXMbU+BazxwXjkJsv4NjR3ZEFXkGHU5idAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDHQhR0VppeIFxjHFi3QX7glPxIr7GH4iIRMVWO9PM6w2LFOFI0cnWYucxGS/7MLjpyUyxuwbKsqWLNISJgpW1zTU19jRjTWxhniigVLC0aAIlj45hpVr90FXQ6Kozx8kdFBS+ucMThJrKrCN/YYywvg1NIvx1/gZg7HuGcrvZM4jdB7tmZ0y+AAAA[0m[Pipeline] // withEnv
+[8mha:////4BL0ORX8mo7lQrZUiXNSPVHYpHH5ILbXAKriECctjDenAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDJDpERWul4QUmNsaJdWfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSt6g4PD1DkR/GjnJzLF4eopi54uoiNM5I1oTW5Jm9OCLbGBZUUJlYS1wc5TcmgZNrJXD1V7hbY+c5zdQULp9B2eUMi5zCryF6YI29uoE+Gv8zcAUwgMVdPsGIr9B0SbnYO+AAAA[0m[Pipeline] }
+[8mha:////4Dwty3JaXm+flSlGmULnOJhRoyhep+8rDgvEbwQfLxCgAAAAox+LCAAAAAAAAP9tjbEOgjAURS8SB1dHP6KEOBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWbZCrrGxVAdOnpxgq1vzMEUw5IqzxNkdNFa+ueOJTM9lMVG+MEXsbkOTmH6dvwFMfS/Iy7IUZPsPVyeZIL4AAAA=[0m[Pipeline] // node
+[8mha:////4Dy4uDBuPSTbbOYNySg6942J1xYj0DETPsfVGvijYVNcAAAAox+LCAAAAAAAAP9tjTESgjAQRTcwFraWHiIMtI6VbYbGE0SIMZDZjckiVJ7Iq3kHMzJj5a/+e817vWGTIhwpWjkYHB2mzsngJ5ufnCmOV0+zHOgiO8JE3sjWzC315rRiS2xgnSigVLA12HlKDi3DTg36oSuv0VZnjtkdFBSuv8MThMpl1pG/sETY36Y+Ef46fwOwhMBQ1nXDIJoPEW0+EL4AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

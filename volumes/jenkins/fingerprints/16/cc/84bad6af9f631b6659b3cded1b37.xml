@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-05-20 15:10:26.806 UTC</timestamp>
+  <md5sum>16cc84bad6af9f631b6659b3cded1b37</md5sum>
+  <fileName>Credential id=awsjp4-pem name=jp4.pem</fileName>
+  <usages>
+    <entry>
+      <string>TF-slave-test</string>
+      <ranges>44-45</ranges>
+    </entry>
+    <entry>
+      <string>Pipeline-Jenkinsfile-tools</string>
+      <ranges>56-60</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

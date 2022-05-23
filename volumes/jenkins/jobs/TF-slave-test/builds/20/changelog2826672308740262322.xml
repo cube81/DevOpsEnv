@@ -1,0 +1,11 @@
+commit 489f38eabdef5986e723bc263107bacb77efc782
+tree 056d966c02c14fd66457a3ea78216a781e540a6a
+parent e1c2931bf5924c9c96afac6db51cbd972f9f25d1
+author Kuba <jp@pgms.pl> 2022-05-20 09:29:34 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 09:29:34 +0000
+
+    zmian w tf 8
+
+
+:100644 100644 d76839870ff3aae4c8e997f8e5d1bec2b3d8c87b 51d7663a564edc3b04a49c419804e9b63c02c8fc M	Jenkinsfile
+:100644 100644 08cba30294e3ce909345704f48edcf8f58da1920 d18005956b885769ca30784a29b76ff0cffcfab2 M	infrastructure/terraform/jp.tfvars

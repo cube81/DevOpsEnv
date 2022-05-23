@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<artifactory-file>
+  <repoPath>
+    <repoKey>libs-snapshot-local</repoKey>
+    <path>pl/pandait/panda/0.0.2-SNAPSHOT/panda-0.0.2-20220323.145735-14-docker-info.jar</path>
+    <folder>false</folder>
+  </repoPath>
+  <name>panda-0.0.2-20220323.145735-14-docker-info.jar</name>
+  <created>1648047461326</created>
+  <lastModified>1648047461314</lastModified>
+  <size>3465</size>
+  <additionalInfo>
+    <createdBy>admin</createdBy>
+    <modifiedBy>admin</modifiedBy>
+    <lastUpdated>1648047461327</lastUpdated>
+    <checksumsInfo>
+      <checksums>
+        <checksum>
+          <type>sha1</type>
+          <original>4b961f74ef5a80414a20036af464b273b39e499b</original>
+          <actual>4b961f74ef5a80414a20036af464b273b39e499b</actual>
+        </checksum>
+        <checksum>
+          <type>md5</type>
+          <original>dec0d93743713077f28d1a3ec4026487</original>
+          <actual>dec0d93743713077f28d1a3ec4026487</actual>
+        </checksum>
+        <checksum>
+          <type>sha256</type>
+          <original>NO_ORIG</original>
+          <actual>1e496897e155af7337c1f5cc8149a7fe9bd4e4a5b42a56a3dfd7da9bd00dca5f</actual>
+        </checksum>
+      </checksums>
+    </checksumsInfo>
+  </additionalInfo>
+</artifactory-file>

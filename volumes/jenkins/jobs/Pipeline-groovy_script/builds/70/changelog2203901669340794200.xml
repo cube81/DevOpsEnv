@@ -1,0 +1,10 @@
+commit dd8e1052f09eba18e1e06ea235ac8bd8bb9e2e92
+tree 061f2834b10bf146e898fa592e6019cebcfe9f3d
+parent 99332b30d4d0d53eed20d6e15847cd2f5f15d24a
+author Kuba <jp@pgms.pl> 2022-04-29 16:40:50 +0000
+committer Kuba <jp@pgms.pl> 2022-04-29 16:40:50 +0000
+
+    zmiana nazw
+
+
+:100644 100644 63f2102e804cccf552f8bd31678e36e7b86956d0 fc37dcc6ba75221f24fa7cc481e81121421317c4 M	Jenkinsfile

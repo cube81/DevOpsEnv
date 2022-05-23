@@ -1,0 +1,11 @@
+commit e1c2931bf5924c9c96afac6db51cbd972f9f25d1
+tree 8f21b0d7a708c992c86d7a3fbb85687966306cb3
+parent 8b6b389491e980ce15bf6f82cc2781737d7322fc
+author Kuba <jp@pgms.pl> 2022-05-20 09:26:18 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 09:26:18 +0000
+
+    zmian w tf 7
+
+
+:100644 100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 08cba30294e3ce909345704f48edcf8f58da1920 M	infrastructure/terraform/jp.tfvars
+:100644 100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 b5643263043d555311c0a2de7541adfbe6943a01 M	infrastructure/terraform/provider.tf

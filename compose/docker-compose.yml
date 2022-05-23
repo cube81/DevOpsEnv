@@ -1,0 +1,75 @@
+version: '3'
+
+services: 
+  jenkins:
+    image: jenkins/jenkins:2.332.3-lts-jdk11
+    container_name: jenkinscompose
+    networks: 
+     - docker_network
+    ports:
+      - "8880:8080"
+      - "50000:50000"
+    volumes:
+      - ../volumes/jenkins:/var/jenkins_home
+
+  ubuntu_slave:
+    container_name: ubuntucompose
+    depends_on: 
+    - jenkins
+    networks: 
+    - docker_network
+    volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+    build:
+      context: ../dockerfiles/slave/
+    command: java -jar agent.jar -jnlpUrl http://jenkins:8080/computer/docker%2Dslave/jenkins-agent.jnlp -secret ab0e8dfdd63e7b3c6c8e2f8696ab5c371498ffee3d29e100e70ca70cdc2fd678 -workDir "/home/jenkins"
+    
+
+  ubuntu_another_slave:
+    container_name: ubuntucompose2
+    depends_on: 
+    - jenkins
+    networks: 
+    - docker_network
+    volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+    build:
+      context: ../dockerfiles/slave/
+    command: java -jar agent.jar -jnlpUrl http://10.200.0.159:8880/computer/docker%2Dslave%2D2/jenkins-agent.jnlp -secret 5af3e50559232ce1652a5b9b364c1f8f3116b210400b4121a982a264d3051b7f -workDir "/home/jenkins"
+ 
+  selenium_hub:
+    image: selenium/hub:4.1.2
+    container_name: seleniumhub-hubcompose
+    ports:
+      - "4442:4442"
+      - "4443:4443"
+      - "4444:4444"
+    networks: 
+      - docker_network
+
+  selenium_firefox:
+    image: selenium/node-firefox:4.1.2-20220208
+    container_name: firefoxcompose
+    depends_on:
+    - selenium_hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium_hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+    networks: 
+      - docker_network
+
+  artifactory:
+    image: docker.bintray.io/jfrog/artifactory-oss:latest
+    container_name: artifactorycompose
+    ports:
+      - "8081:8081"
+      - "8082:8082"
+    volumes:
+      - ../volumes/artifactory:/var/opt/jfrog/artifactory
+    networks: 
+    - docker_network
+
+networks: 
+  docker_network:
+    driver: bridge

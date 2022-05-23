@@ -1,0 +1,10 @@
+commit a2aec4339d8748ce7e5356eb7e5ba1a178bc8907
+tree bc2e2be40cc17183afbbf33baf21a551597fe317
+parent f480db6e634c21c1ca702b2fef3963b6719f53db
+author Kuba <jp@pgms.pl> 2022-05-20 09:34:49 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 09:34:49 +0000
+
+    zmian w tf 10
+
+
+:100644 100644 d18005956b885769ca30784a29b76ff0cffcfab2 aa5b9ba6fc96868a5ceb02e39b7b33670a56e649 M	infrastructure/terraform/jp.tfvars

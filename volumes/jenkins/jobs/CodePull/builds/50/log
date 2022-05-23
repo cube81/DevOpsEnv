@@ -1,0 +1,310 @@
+Started by user [8mha:////4MiU8VJN9gVaUODU6IF80AxuYblFwoYVU32YJ0Yw1jaxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Running as SYSTEM
+Building remotely on [8mha:////4CG9tOcHujSo+styiKdHK0bdYQiba3Yk22shDV76cxRDAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYx/eT83ILSktQi/ZT85OzUIt3inMSyVAD7k7MKywAAAA==[0mdocker-slave in workspace /home/jenkins/workspace/CodePull
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://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@github.com/cube81/jp_application.git
+ > git init /home/jenkins/workspace/CodePull # timeout=10
+Fetching upstream changes from https://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@github.com/cube81/jp_application.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://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@github.com/cube81/jp_application.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://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@github.com/cube81/jp_application.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 99332b30d4d0d53eed20d6e15847cd2f5f15d24a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 99332b30d4d0d53eed20d6e15847cd2f5f15d24a # timeout=10
+Commit message: "first commit"
+First time build. Skipping changelog.
+[CodePull] $ /bin/sh -xe /tmp/jenkins9104732960672817213.sh
++ cat pom.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.2.4.RELEASE</version>
+    <relativePath/>
+    <!-- lookup parent from repository -->
+  </parent>
+  <groupId>pl.jp</groupId>
+  <artifactId>jpapp</artifactId>
+  <version>0.0.2-SNAPSHOT</version>
+  <name>jp</name>
+  <description>Demo project for Spring Boot</description>
+
+  <properties>
+    <java.version>11</java.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.junit.vintage</groupId>
+          <artifactId>junit-vintage-engine</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>3.141.59</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.19.1</version>
+        <configuration>
+          <includes>
+            <include>HelloControllerTest.java</include>
+            <include>JpApplicationTest.java</include>
+          </includes>
+        </configuration>
+        <dependencies>
+          <!-- let surefire run JUnit 4 but also JUnit 5 tests -->
+          <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-surefire-provider</artifactId>
+            <version>1.1.0</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>docker</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>com.spotify</groupId>
+            <artifactId>dockerfile-maven-plugin</artifactId>
+            <version>1.4.0</version>
+            <executions>
+              <execution>
+                <id>default</id>
+                <goals>
+                  <goal>build</goal>
+                  <goal>push</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <repository>${project.artifactId}</repository>
+              <tag>${project.version}</tag>
+              <buildArgs>
+                <JAR_FILE>target/${project.artifactId}-${project.version}.jar</JAR_FILE>
+              </buildArgs>
+            </configuration>
+            <dependencies>
+              <dependency>
+                <groupId>javax.activation</groupId>
+                <artifactId>activation</artifactId>
+                <version>1.1.1</version>
+              </dependency>
+            </dependencies>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+    <profile>
+      <id>selenium</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.19.1</version>
+            <configuration>
+              <includes>
+                <include>**.*SeleniumTest.java</include>
+              </includes>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+        <distributionManagement>
+                <repository>
+                        <id>artifactorycompose</id>
+                        <name>release</name>
+                        <url>http://10.200.0.159:8081/artifactory/libs-release-local</url>
+                </repository>
+                <snapshotRepository>
+                        <id>artifactorycompose</id>
+                        <name>snapshots</name>
+                        <url>http://10.200.0.159:8081/artifactory/libs-snapshot-local</url>
+                </snapshotRepository>
+        </distributionManagement>
+        
+</project>
+[CodePull] $ /home/jenkins/tools/hudson.tasks.Maven_MavenInstallation/auto_maven/bin/mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< pl.jp:jpapp >-----------------------------
+[INFO] Building jp 0.0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/CodePull/target/classes
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/CodePull/src/test/resources
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/CodePull/target/test-classes
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ jpapp ---
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ jpapp ---
+[INFO] Building jar: /home/jenkins/workspace/CodePull/target/jpapp-0.0.2-SNAPSHOT.jar
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ jpapp ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ jpapp ---
+[INFO] Installing /home/jenkins/workspace/CodePull/target/jpapp-0.0.2-SNAPSHOT.jar to /root/.m2/repository/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-SNAPSHOT.jar
+[INFO] Installing /home/jenkins/workspace/CodePull/pom.xml to /root/.m2/repository/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.643 s
+[INFO] Finished at: 2022-04-29T10:59:05Z
+[INFO] ------------------------------------------------------------------------
+using settings config with name Creds
+Replacing all maven server entries not found in credentials list is false
+[CodePull] $ /home/jenkins/tools/hudson.tasks.Maven_MavenInstallation/auto_maven/bin/mvn -s /tmp/settings8511674422395188529.xml test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< pl.jp:jpapp >-----------------------------
+[INFO] Building jp 0.0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/CodePull/target/classes
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/CodePull/src/test/resources
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/CodePull/target/test-classes
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ jpapp ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.970 s
+[INFO] Finished at: 2022-04-29T10:59:08Z
+[INFO] ------------------------------------------------------------------------
+using settings config with name Creds
+Replacing all maven server entries not found in credentials list is false
+[CodePull] $ /home/jenkins/tools/hudson.tasks.Maven_MavenInstallation/auto_maven/bin/mvn -s /tmp/settings16609248734623688128.xml deploy
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< pl.jp:jpapp >-----------------------------
+[INFO] Building jp 0.0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/CodePull/target/classes
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ jpapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/CodePull/src/test/resources
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jpapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/jenkins/workspace/CodePull/target/test-classes
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ jpapp ---
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ jpapp ---
+[INFO] Building jar: /home/jenkins/workspace/CodePull/target/jpapp-0.0.2-SNAPSHOT.jar
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ jpapp ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ jpapp ---
+[INFO] Installing /home/jenkins/workspace/CodePull/target/jpapp-0.0.2-SNAPSHOT.jar to /root/.m2/repository/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-SNAPSHOT.jar
+[INFO] Installing /home/jenkins/workspace/CodePull/pom.xml to /root/.m2/repository/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-SNAPSHOT.pom
+[INFO] 
+[8mha:////4BqvIjn2+t3eBVnrxvSE4PjSu9d98vKdU+VbyFjRlw2dAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ jpapp ---
+Downloading from artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/maven-metadata.xml
+Progress (1): 760 B                   Downloaded from artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/maven-metadata.xml (760 B at 4.3 kB/s)
+Uploading to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-20220429.105912-2.jar
+Progress (1): 0.3/27 MBProgress (1): 0.5/27 MBProgress (1): 0.8/27 MBProgress (1): 1.1/27 MBProgress (1): 1.4/27 MBProgress (1): 1.6/27 MBProgress (1): 1.9/27 MBProgress (1): 2.2/27 MBProgress (1): 2.4/27 MBProgress (1): 2.7/27 MBProgress (1): 3.0/27 MBProgress (1): 3.2/27 MBProgress (1): 3.5/27 MBProgress (1): 3.8/27 MBProgress (1): 4.1/27 MBProgress (1): 4.3/27 MBProgress (1): 4.6/27 MBProgress (1): 4.9/27 MBProgress (1): 5.1/27 MBProgress (1): 5.4/27 MBProgress (1): 5.7/27 MBProgress (1): 5.9/27 MBProgress (1): 6.2/27 MBProgress (1): 6.5/27 MBProgress (1): 6.8/27 MBProgress (1): 7.0/27 MBProgress (1): 7.3/27 MBProgress (1): 7.6/27 MBProgress (1): 7.8/27 MBProgress (1): 8.1/27 MBProgress (1): 8.4/27 MBProgress (1): 8.7/27 MBProgress (1): 8.9/27 MBProgress (1): 9.2/27 MBProgress (1): 9.5/27 MBProgress (1): 9.7/27 MBProgress (1): 10/27 MB Progress (1): 10/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 13/27 MBProgress (1): 13/27 MBProgress (1): 13/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 17/27 MBProgress (1): 17/27 MBProgress (1): 17/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 20/27 MBProgress (1): 20/27 MBProgress (1): 20/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 23/27 MBProgress (1): 23/27 MBProgress (1): 23/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 27/27 MBProgress (1): 27/27 MBProgress (1): 27/27 MBProgress (1): 27 MB                      Uploaded to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-20220429.105912-2.jar (27 MB at 43 MB/s)
+Uploading to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-20220429.105912-2.pom
+Progress (1): 4.1/4.9 kBProgress (1): 4.9 kB                        Uploaded to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-20220429.105912-2.pom (4.9 kB at 152 kB/s)
+Downloading from artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/maven-metadata.xml
+Progress (1): 363 B                   Downloaded from artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/maven-metadata.xml (363 B at 30 kB/s)
+Uploading to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/maven-metadata.xml
+Progress (1): 760 B                   Uploaded to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/0.0.2-SNAPSHOT/maven-metadata.xml (760 B at 84 kB/s)
+Uploading to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/maven-metadata.xml
+Progress (1): 306 B                   Uploaded to artifactorycompose: http://10.200.0.159:8081/artifactory/libs-snapshot-local/pl/jp/jpapp/maven-metadata.xml (306 B at 15 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.829 s
+[INFO] Finished at: 2022-04-29T10:59:13Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

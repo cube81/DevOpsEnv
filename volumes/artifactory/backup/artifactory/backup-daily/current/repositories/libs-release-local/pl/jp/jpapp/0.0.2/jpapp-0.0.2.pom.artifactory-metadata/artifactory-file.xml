@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<artifactory-file>
+  <repoPath>
+    <repoKey>libs-release-local</repoKey>
+    <path>pl/jp/jpapp/0.0.2/jpapp-0.0.2.pom</path>
+    <folder>false</folder>
+  </repoPath>
+  <name>jpapp-0.0.2.pom</name>
+  <created>1651229327104</created>
+  <lastModified>1651229475339</lastModified>
+  <size>4845</size>
+  <additionalInfo>
+    <createdBy>admin</createdBy>
+    <modifiedBy>admin</modifiedBy>
+    <lastUpdated>1651229475347</lastUpdated>
+    <checksumsInfo>
+      <checksums>
+        <checksum>
+          <type>sha1</type>
+          <original>52f28399ded44228b37ceab1abdba1ecb01e4b6a</original>
+          <actual>52f28399ded44228b37ceab1abdba1ecb01e4b6a</actual>
+        </checksum>
+        <checksum>
+          <type>md5</type>
+          <original>079340d2b52d98f82c180fe89710bc91</original>
+          <actual>079340d2b52d98f82c180fe89710bc91</actual>
+        </checksum>
+        <checksum>
+          <type>sha256</type>
+          <original>NO_ORIG</original>
+          <actual>cb5390a8285af7eff65adb84655d54cff3479f4065f7af122ceb277265ba375e</actual>
+        </checksum>
+      </checksums>
+    </checksumsInfo>
+  </additionalInfo>
+</artifactory-file>

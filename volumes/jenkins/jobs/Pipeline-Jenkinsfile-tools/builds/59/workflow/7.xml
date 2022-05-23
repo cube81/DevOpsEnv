@@ -1,0 +1,68 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@820.vd1a_6cc65ef33">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2692.v76b_089ccd026">
+    <parentIds>
+      <string>6</string>
+    </parentIds>
+    <id>7</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.scm.GenericSCMStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2692.v76b_089ccd026">
+      <arguments>
+        <entry>
+          <string>scm</string>
+          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@318.va_f3ccb_729b_71">
+            <arguments class="tree-map">
+              <entry>
+                <string>branches</string>
+                <list>
+                  <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                    <arguments class="tree-map">
+                      <entry>
+                        <string>name</string>
+                        <string>*/final</string>
+                      </entry>
+                    </arguments>
+                    <model resolves-to="org.jenkinsci.plugins.structs.describable.DescribableModel$SerializedForm">
+                      <type>hudson.plugins.git.BranchSpec</type>
+                    </model>
+                  </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                </list>
+              </entry>
+              <entry>
+                <string>extensions</string>
+                <list/>
+              </entry>
+              <entry>
+                <string>userRemoteConfigs</string>
+                <list>
+                  <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                    <arguments class="tree-map">
+                      <entry>
+                        <string>url</string>
+                        <string>https://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@github.com/cube81/jp_application.git</string>
+                      </entry>
+                    </arguments>
+                    <model resolves-to="org.jenkinsci.plugins.structs.describable.DescribableModel$SerializedForm">
+                      <type>hudson.plugins.git.UserRemoteConfig</type>
+                    </model>
+                  </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                </list>
+              </entry>
+            </arguments>
+            <model resolves-to="org.jenkinsci.plugins.structs.describable.DescribableModel$SerializedForm">
+              <type>hudson.plugins.git.GitSCM</type>
+            </model>
+          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1153.vb_912c0e47fb_a_">
+      <startTime>1653123358690</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

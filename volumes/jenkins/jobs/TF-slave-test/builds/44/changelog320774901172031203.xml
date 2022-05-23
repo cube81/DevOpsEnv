@@ -1,0 +1,40 @@
+commit b5ccf1a03e33c8bfa53d617b59b92a7278da7af1
+tree aec7306dba0ca44510de6c69f71c332c544aa542
+parent 8dbfd675fd92f7ca30364280e909cb7a483c9ccb
+author Kuba <jp@pgms.pl> 2022-05-20 10:38:49 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 10:38:49 +0000
+
+    zmian w tf 22
+
+
+:100644 000000 3e04a9bd180755ce4efe0bf80d66a881a6bd3028 0000000000000000000000000000000000000000 D	infrastructure/terraform/.gitignore
+commit 8dbfd675fd92f7ca30364280e909cb7a483c9ccb
+tree 771b8260a2befa44e1280a684729cfed2ae49816
+parent 1b3afa23164acf3eb45c449a5332f250ecee7d07
+author Kuba <jp@pgms.pl> 2022-05-20 10:36:31 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 10:36:31 +0000
+
+    zmian w tf 21
+
+
+:100644 100644 d2c007b2acd4875701c80659e4cb230cfa0a725e c377edc14428366c1004b07516f2085387509c52 M	Jenkinsfile
+commit 1b3afa23164acf3eb45c449a5332f250ecee7d07
+tree 3aa5eb32b62343435bd3e1c5f89ba8cf5199fb01
+parent 8a457ac4e6d07b8e9e734bbb2f3c254b8718a38b
+author Kuba <jp@pgms.pl> 2022-05-20 10:34:42 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 10:34:42 +0000
+
+    zmian w tf 20
+
+
+:100644 100644 8a7bb79753cbb2dfa754a85bd8db9cbb61cd2c8d 3e04a9bd180755ce4efe0bf80d66a881a6bd3028 M	infrastructure/terraform/.gitignore
+commit 8a457ac4e6d07b8e9e734bbb2f3c254b8718a38b
+tree c76b498a24d25df20219d5a614ea38707c9fd9dd
+parent 026379470df7bc19c5618cd8dc952e570c245c70
+author Kuba <jp@pgms.pl> 2022-05-20 10:21:10 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 10:21:10 +0000
+
+    zmian w tf 17
+
+
+:100644 100644 0b76ad145200b5e94fb097e74b8d50f9e473c68e d2c007b2acd4875701c80659e4cb230cfa0a725e M	Jenkinsfile

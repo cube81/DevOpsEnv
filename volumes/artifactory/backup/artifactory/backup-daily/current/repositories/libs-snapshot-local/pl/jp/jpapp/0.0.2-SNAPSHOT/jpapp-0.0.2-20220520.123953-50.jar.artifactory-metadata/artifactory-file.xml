@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<artifactory-file>
+  <repoPath>
+    <repoKey>libs-snapshot-local</repoKey>
+    <path>pl/jp/jpapp/0.0.2-SNAPSHOT/jpapp-0.0.2-20220520.123953-50.jar</path>
+    <folder>false</folder>
+  </repoPath>
+  <name>jpapp-0.0.2-20220520.123953-50.jar</name>
+  <created>1653050393473</created>
+  <lastModified>1653050393131</lastModified>
+  <size>27351496</size>
+  <additionalInfo>
+    <createdBy>admin</createdBy>
+    <modifiedBy>admin</modifiedBy>
+    <lastUpdated>1653050393473</lastUpdated>
+    <checksumsInfo>
+      <checksums>
+        <checksum>
+          <type>sha1</type>
+          <original>a2481af3ce469ade8d67edaa059ef2fd33a3c37c</original>
+          <actual>a2481af3ce469ade8d67edaa059ef2fd33a3c37c</actual>
+        </checksum>
+        <checksum>
+          <type>md5</type>
+          <original>217287d40ba1697e990e7ae812671f6f</original>
+          <actual>217287d40ba1697e990e7ae812671f6f</actual>
+        </checksum>
+        <checksum>
+          <type>sha256</type>
+          <original>NO_ORIG</original>
+          <actual>738ebf205ce65ae722ac1a9c46fe0b2a5018e82458a0c59b73016a10f40acc81</actual>
+        </checksum>
+      </checksums>
+    </checksumsInfo>
+  </additionalInfo>
+</artifactory-file>

@@ -1,0 +1,16 @@
+endpoints:
+    - paths:
+        - match: /integration/(.*)
+          replace: /$1
+      port: 8071
+      protocol: 1
+    - paths:
+        - match: /com\.jfrog\.integration\..*
+          replace: ""
+      port: 8072
+      protocol: 2
+healthcheckendpoint:
+    path: /api/v1/system/readiness
+    port: 8071
+nodeid: 771756b327c9
+serviceid: jfint@01fwm128yng63m049d2q261cpd

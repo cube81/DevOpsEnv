@@ -1,0 +1,10 @@
+commit cb3f0374d7a77b73fa6b856ae1857fcd7dd82b78
+tree 80295836e281c4211ff7a2882ab5a21b21c372dd
+parent dca3d46f6ebdcf2be3ae61aa6ce5a0d14c3d1ceb
+author Kuba <jp@pgms.pl> 2022-05-20 08:42:13 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 08:42:13 +0000
+
+    kolejne zmiany w tf 3
+
+
+:100644 100644 a77b45f6240e39fd86751cb0a3a06dafb6b86ee1 e2b91f1484335cbf5995e43bb78f5e7eea729805 M	infrastructure/terraform/jp.tfvars

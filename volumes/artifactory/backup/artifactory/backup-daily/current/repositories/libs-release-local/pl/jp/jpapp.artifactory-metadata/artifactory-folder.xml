@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<artifactory-folder>
+  <repoPath>
+    <repoKey>libs-release-local</repoKey>
+    <path>pl/jp/jpapp</path>
+    <folder>true</folder>
+  </repoPath>
+  <name>jpapp</name>
+  <created>1651229326801</created>
+  <lastModified>1651229326801</lastModified>
+  <additionalInfo>
+    <createdBy>admin</createdBy>
+    <modifiedBy>admin</modifiedBy>
+    <lastUpdated>1651229326801</lastUpdated>
+  </additionalInfo>
+</artifactory-folder>

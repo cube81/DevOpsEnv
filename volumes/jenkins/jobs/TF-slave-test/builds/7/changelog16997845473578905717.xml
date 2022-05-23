@@ -1,0 +1,17 @@
+commit c51ec67321491593b8123b3b5c7693b239e2291e
+tree ae53d7107eebb3e3a2ffb33d676a0bb2d322a502
+parent bfff6e84b04a8644693ef54f84180db3073602f3
+author Kuba <jp@pgms.pl> 2022-05-20 08:36:17 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 08:36:17 +0000
+
+    kolejne zmiany w tf 1
+
+
+:100644 100644 8fcb8cd2a7c5b79d7ce17a03fcfd3f5f0c3286af d2c007b2acd4875701c80659e4cb230cfa0a725e M	Jenkinsfile
+:100644 100644 e28f8d89f10787b3210f24368c6be481e4c9f1b7 fdb3b1095f76dccb7e511147e7ed328f82228b8c M	infrastructure/terraform/alb.tf
+:100644 100644 2a5f58d7c70b9dcbeaeb3f8cec6cafcc64e38ad0 aa561eaafc67837912f14c4696322c6c67db6cda M	infrastructure/terraform/ec2.tf
+:100644 100644 0a9e4b6b505508c8627b7864cade336be7755dc7 ba6b15fc2f4870aacaa2aa34dddc458493a206ca M	infrastructure/terraform/inventory.tf
+:100644 100644 292c8294d8d2950ee79acd82b9df00634bf06643 aeec76a51182854f9f0101e85e0f6dfe817b1f1b M	infrastructure/terraform/provider.tf
+:100644 100644 2b7f71e22e6cb74bbbb6136468f337b35b5d575d 0a0050db35ab5e7dd37c47c0886cbd717308799f M	infrastructure/terraform/variables.tf
+:100644 100644 26ce6747279c1fe408bb3965987d92e376c69d14 2c74628d8fa6b16e7a8c118b0e0ed9fd1be1fd12 M	infrastructure/terraform/versions.tf
+:100644 100644 ef0166da17879a8b9d83f94346fd9dc6d1b584c1 c1d2d8d0effcd99bd18185d2a9122d24db12a1d6 M	infrastructure/terraform/vpc.tf

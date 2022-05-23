@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@819.v37d707a_71d9b_">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2689.v434009a_31b_f1">
+    <parentIds>
+      <string>93</string>
+    </parentIds>
+    <id>94</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2689.v434009a_31b_f1">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>mvn -gs /home/jenkins/workspace/Pipeline-groovy_script@tmp/config2044954995689988077tmp deploy -Dmaven.test.skip=true -e</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1144.v61c3180fa_03f">
+      <startTime>1651247858071</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

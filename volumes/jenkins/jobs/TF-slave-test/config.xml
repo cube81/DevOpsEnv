@@ -1,0 +1,94 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1181.va_25d15548158">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2081.v3919681ffc1e"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2081.v3919681ffc1e">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2692.v76b_089ccd026">
+    <script>pipeline {
+    agent {
+        label &apos;docker-slave&apos;
+    }
+
+  tools {
+    terraform &apos;Terraform&apos;
+  }
+
+  environment {
+    ANSIBLE = tool name: &apos;Ansible&apos;, type: &apos;com.cloudbees.jenkins.plugins.customtools.CustomTool&apos;
+  }
+  stages {
+    stage(&apos;Test installation&apos;) {
+      steps {
+        sh &apos;terraform --version&apos;
+        sh &apos;ansible --version&apos;
+      }
+    }
+    stage(&quot;Test credek&quot;){
+        steps {
+            withCredentials([[$class: &apos;AmazonWebServicesCredentialsBinding&apos;,credentialsId: &apos;awsjp3-akid&apos;]]){
+                sh &apos;env|grep AWS&apos;
+        }
+    }
+  }
+  
+          stage(&apos;Get Code&apos;) {
+            steps {
+                // Get some code from a GitHub repository
+                pwd()
+                git branch: &apos;main&apos;, url: &apos;https://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@github.com/cube81/jp_application.git/&apos;
+                //checkout scm
+            }
+        }
+        
+        stage(&apos;Run terraform&apos;) {
+            steps {
+                dir(&apos;infrastructure/terraform&apos;) {
+                    //sh &apos;ls -la&apos;
+                    //sh &apos;cat ./jp.tfvars&apos;
+                    //sh &apos;cat ../jp3.pem&apos;
+                    
+                    withCredentials([file(credentialsId: &apos;awsjp4-pem&apos;, variable: &apos;terraformjp&apos;)]) {
+                        sh &quot;cp \$terraformjp ../jp4.pem&quot;
+                        sh &apos;pwd&apos;
+                        sh &apos;ls -la&apos;
+                    }
+                    sh &apos;cat ../jp4.pem&apos;
+                    withCredentials([[$class: &apos;AmazonWebServicesCredentialsBinding&apos;,credentialsId: &apos;awsjp3-akid&apos;]]){  
+                        sh &apos;cat ./jp.tfvars&apos;
+                        sh &apos;env|grep AWS&apos;
+                        sh &apos;terraform init&apos;
+                        sh &apos;terraform plan -var-file ./jp.tfvars&apos;  
+                        
+                        //sh &apos;terraform init &amp;&amp; terraform apply -var-file ./jp.tfvars -auto-approve&apos;
+                    }
+                } 
+            }
+        }
+  
+}
+    post {
+            always {
+                deleteDir()
+                //sh &apos;ls -l&apos;
+            }
+
+
+        }
+
+
+
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

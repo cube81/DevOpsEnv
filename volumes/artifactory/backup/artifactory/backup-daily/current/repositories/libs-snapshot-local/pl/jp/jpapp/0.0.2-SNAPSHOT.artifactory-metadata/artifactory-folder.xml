@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<artifactory-folder>
+  <repoPath>
+    <repoKey>libs-snapshot-local</repoKey>
+    <path>pl/jp/jpapp/0.0.2-SNAPSHOT</path>
+    <folder>true</folder>
+  </repoPath>
+  <name>0.0.2-SNAPSHOT</name>
+  <created>1651229491270</created>
+  <lastModified>1651229491270</lastModified>
+  <additionalInfo>
+    <createdBy>admin</createdBy>
+    <modifiedBy>admin</modifiedBy>
+    <lastUpdated>1651229491270</lastUpdated>
+  </additionalInfo>
+</artifactory-folder>

@@ -1,0 +1,81 @@
+2022-05-21T14:22:09.415Z [jfrt ] [INFO ] [e3290ccaf18b5f5b] [adsFolderCleanupServiceImpl:52] [art-exec-36344      ] - Starting docker temp folder cleanup
+2022-05-21T14:22:09.418Z [jfrt ] [INFO ] [e3290ccaf18b5f5b] [adsFolderCleanupServiceImpl:54] [art-exec-36344      ] - Docker temp folder cleanup finished, time took: 3 millis
+2022-05-21T16:00:00.001Z [jfrt ] [INFO ] [504b02273fc1ca62] [.s.d.b.s.BinaryServiceImpl:696] [art-exec-38811      ] - Triggering Garbage Collection
+2022-05-21T16:00:00.002Z [jfrt ] [INFO ] [504b02273fc1ca62] [.s.d.b.s.g.GarbageCollector:66] [art-exec-38811      ] - Starting GC strategy 'TRASH_AND_BINARIES'
+2022-05-21T16:00:00.002Z [jfrt ] [INFO ] [504b02273fc1ca62] [.s.d.b.s.g.GarbageCollector:68] [art-exec-38811      ] - Finished GC Strategy 'TRASH_AND_BINARIES'
+2022-05-21T16:22:39.293Z [jfrt ] [INFO ] [84a479b24e6eac85] [a.e.EventsLogCleanUpService:74] [art-exec-39386      ] - Starting cleanup of old events from event log
+2022-05-21T16:22:39.297Z [jfrt ] [INFO ] [84a479b24e6eac85] [.e.EventsLogCleanUpService:113] [art-exec-39386      ] - Cleanup of old events from event log finished
+2022-05-21T20:00:00.001Z [jfrt ] [INFO ] [7d05ab3115d62758] [.s.d.b.s.BinaryServiceImpl:696] [art-exec-44864      ] - Triggering Garbage Collection
+2022-05-21T20:00:00.001Z [jfrt ] [INFO ] [7d05ab3115d62758] [.s.d.b.s.g.GarbageCollector:66] [art-exec-44864      ] - Starting GC strategy 'TRASH_AND_BINARIES'
+2022-05-21T20:00:00.002Z [jfrt ] [INFO ] [7d05ab3115d62758] [.s.d.b.s.g.GarbageCollector:68] [art-exec-44864      ] - Finished GC Strategy 'TRASH_AND_BINARIES'
+2022-05-22T00:00:00.001Z [jfrt ] [INFO ] [bd4aff0c5b3d2ad0] [.s.d.b.s.BinaryServiceImpl:696] [art-exec-50917      ] - Triggering Garbage Collection
+2022-05-22T00:00:00.002Z [jfrt ] [INFO ] [bd4aff0c5b3d2ad0] [.s.d.b.s.g.GarbageCollector:66] [art-exec-50917      ] - Starting GC strategy 'TRASH_AND_BINARIES'
+2022-05-22T00:00:00.003Z [jfrt ] [INFO ] [bd4aff0c5b3d2ad0] [.s.d.b.s.g.GarbageCollector:68] [art-exec-50917      ] - Finished GC Strategy 'TRASH_AND_BINARIES'
+2022-05-22T00:12:00.001Z [jfrt ] [INFO ] [eb11203cb5deab0e] [ualCacheCleanupServiceImpl:119] [art-exec-51219      ] - Starting cleanup of virtual repositories cache
+2022-05-22T00:12:00.001Z [jfrt ] [INFO ] [eb11203cb5deab0e] [ualCacheCleanupServiceImpl:127] [art-exec-51219      ] - Completed virtual repositories cleanup: removed 0 cached files.
+2022-05-22T00:40:02.982Z [jfrt ] [ERROR] [                ] [.j.a.c.g.GrpcStreamObserver:97] [-default-executor-60] - refreshing affected platform config stream - got an error (status: Status{code=INTERNAL, description=Received unexpected EOS on empty DATA frame from server, cause=null})
+io.grpc.StatusRuntimeException: INTERNAL: Received unexpected EOS on empty DATA frame from server
+	at io.grpc.Status.asRuntimeException(Status.java:535)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:479)
+	at io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39)
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23)
+	at io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40)
+	at org.jfrog.access.client.grpc.AuthorizationInterceptor$AuthenticatedClientCall$RejoiningClientCallListener.onClose(AuthorizationInterceptor.java:73)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:562)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:743)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:722)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-05-22T00:40:04.349Z [jfrt ] [ERROR] [                ] [.j.a.c.g.GrpcStreamObserver:97] [-default-executor-60] - refreshing affected permissions stream - got an error (status: Status{code=INTERNAL, description=Received unexpected EOS on empty DATA frame from server, cause=null})
+io.grpc.StatusRuntimeException: INTERNAL: Received unexpected EOS on empty DATA frame from server
+	at io.grpc.Status.asRuntimeException(Status.java:535)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:479)
+	at io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39)
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23)
+	at io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40)
+	at org.jfrog.access.client.grpc.AuthorizationInterceptor$AuthenticatedClientCall$RejoiningClientCallListener.onClose(AuthorizationInterceptor.java:73)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:562)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:743)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:722)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-05-22T00:40:04.369Z [jfrt ] [ERROR] [                ] [.j.a.c.g.GrpcStreamObserver:97] [-default-executor-60] - refreshing affected projects stream - got an error (status: Status{code=INTERNAL, description=Received unexpected EOS on empty DATA frame from server, cause=null})
+io.grpc.StatusRuntimeException: INTERNAL: Received unexpected EOS on empty DATA frame from server
+	at io.grpc.Status.asRuntimeException(Status.java:535)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:479)
+	at io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39)
+	at io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23)
+	at io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40)
+	at org.jfrog.access.client.grpc.AuthorizationInterceptor$AuthenticatedClientCall$RejoiningClientCallListener.onClose(AuthorizationInterceptor.java:73)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:562)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:743)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:722)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-05-22T00:40:07.969Z [jfrt ] [INFO ] [                ] [ffectedConfigStreamObserver:36] [Stream_1653056527969] - publishing full invalidation and attempting to resubscribe to affected configuration changes
+2022-05-22T00:40:09.343Z [jfrt ] [INFO ] [                ] [ectedEntitiesStreamObserver:35] [Stream_1653056529334] - publishing full invalidation and attempting to resubscribe to affected permissions changes
+2022-05-22T02:47:00.001Z [jfrt ] [INFO ] [c02dda98f30a0a90] [tegrationCleanupServiceImpl:44] [art-exec-55132      ] - cleaning jobs table
+2022-05-22T02:47:00.002Z [jfrt ] [INFO ] [c02dda98f30a0a90] [tegrationCleanupServiceImpl:48] [art-exec-55132      ] - cleaned up 0 old job records
+2022-05-22T04:00:00.001Z [jfrt ] [INFO ] [2ddded348e226f09] [.s.d.b.s.BinaryServiceImpl:696] [art-exec-56974      ] - Triggering Garbage Collection
+2022-05-22T04:00:00.002Z [jfrt ] [INFO ] [2ddded348e226f09] [.s.d.b.s.g.GarbageCollector:66] [art-exec-56974      ] - Starting GC strategy 'TRASH_AND_BINARIES'
+2022-05-22T04:00:00.003Z [jfrt ] [INFO ] [2ddded348e226f09] [.s.d.b.s.g.GarbageCollector:68] [art-exec-56974      ] - Finished GC Strategy 'TRASH_AND_BINARIES'
+2022-05-22T05:22:39.294Z [jfrt ] [INFO ] [11707c8d857472d9] [a.e.EventsLogCleanUpService:74] [art-exec-59063      ] - Starting cleanup of old events from event log
+2022-05-22T05:22:39.296Z [jfrt ] [INFO ] [11707c8d857472d9] [.e.EventsLogCleanUpService:113] [art-exec-59063      ] - Cleanup of old events from event log finished
+2022-05-22T08:00:00.002Z [jfrt ] [INFO ] [3fd98faeb04ba380] [.s.d.b.s.BinaryServiceImpl:696] [art-exec-63029      ] - Triggering Garbage Collection
+2022-05-22T08:00:00.002Z [jfrt ] [INFO ] [3fd98faeb04ba380] [.s.d.b.s.g.GarbageCollector:66] [art-exec-63029      ] - Starting GC strategy 'TRASH_AND_BINARIES'
+2022-05-22T08:00:00.003Z [jfrt ] [INFO ] [3fd98faeb04ba380] [.s.d.b.s.g.GarbageCollector:68] [art-exec-63029      ] - Finished GC Strategy 'TRASH_AND_BINARIES'
+2022-05-22T12:00:00.002Z [jfrt ] [INFO ] [59e8f8a90d5e7007] [.s.d.b.s.BinaryServiceImpl:696] [art-exec-69081      ] - Triggering Garbage Collection
+2022-05-22T12:00:00.003Z [jfrt ] [INFO ] [59e8f8a90d5e7007] [.s.d.b.s.g.GarbageCollector:66] [art-exec-69081      ] - Starting GC strategy 'TRASH_AND_BINARIES'
+2022-05-22T12:00:00.004Z [jfrt ] [INFO ] [59e8f8a90d5e7007] [.s.d.b.s.g.GarbageCollector:68] [art-exec-69081      ] - Finished GC Strategy 'TRASH_AND_BINARIES'

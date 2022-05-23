@@ -1,0 +1,10 @@
+commit e9468ef6e6b3ccded3a24d1209dca257bc644263
+tree 351703a69a597fb2ae1a63163ec3b45996d6393f
+parent bfb87e92901e3bc0e67bad9db88b0ebd2fab2527
+author Kuba <jp@pgms.pl> 2022-05-21 08:29:12 +0000
+committer Kuba <jp@pgms.pl> 2022-05-21 08:29:12 +0000
+
+    zmienione paczki w instalacji mvena w Ansible 1 i czyszczenie workspace i dodany cat inventory
+
+
+:100644 100644 beb686eb7a6ba1c8e4cb80ff4e34d7abc4e888d4 d7f1abae12c64ca4438b22c8ee81efd2dbaae0c2 M	Jenkinsfile

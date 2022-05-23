@@ -1,0 +1,26 @@
+---
+security:
+  password-policy:
+    uppercase: "1"
+    length: "8"
+    lowercase: "1"
+    special-char: "0"
+    digit: "1"
+federation:
+  inbound:
+    service-id-mapping:
+    - from: "jfrou@*"
+      to: "jfrou@01fwm1qqvkyzfn0mkdhj5z6ds8"
+    - from: "jfint@*"
+      to: "jfint@01fwm128yng63m049d2q261cpd"
+    - from: "jfob@*"
+      to: "jfob@01fwm128yng63m049d2q261cpd"
+    - from: "jfmd@*"
+      to: "jfmd@01fwm1qthqqcnqkd3y9hjm6rbw"
+    - from: "jfrt@*"
+      to: "jfrt@01fwm1x2pksj9n184sda2g0rfq"
+    - from: "jffe@*"
+      to: "jffe@000"
+    - from: "jfob@*"
+      to: "jfob@01fwm1x2pksj9n184sda2g0rfq"
+schema-version: 2

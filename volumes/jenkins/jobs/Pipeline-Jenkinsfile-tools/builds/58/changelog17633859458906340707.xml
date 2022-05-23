@@ -1,0 +1,21 @@
+commit 10459939910483dc275413214960608acdf45135
+tree 8788fd2765c4a486d362ed0318283b3df25758e8
+parent a49bf570b5bd36c0f3ad078b002ed461e775669c
+author Kuba <jp@pgms.pl> 2022-05-21 08:44:16 +0000
+committer Kuba <jp@pgms.pl> 2022-05-21 08:44:16 +0000
+
+    zmienione paczki w instalacji mvena w Ansible 1 i czyszczenie workspace i dodany cat inventory 3
+
+
+:100644 100644 d494f95db92e331f7d3606766f493bc90a861156 225a727dd6969f945af95395bdfd9e7b1527b4e6 M	Jenkinsfile
+commit a49bf570b5bd36c0f3ad078b002ed461e775669c
+tree fb1fecad50582e22d5630dd77fde1e245fa5fe2c
+parent e9468ef6e6b3ccded3a24d1209dca257bc644263
+author Kuba <jp@pgms.pl> 2022-05-21 08:41:00 +0000
+committer Kuba <jp@pgms.pl> 2022-05-21 08:41:00 +0000
+
+    zmienione paczki w instalacji mvena w Ansible 1 i czyszczenie workspace i dodany cat inventory 2
+
+
+:100644 100644 d7f1abae12c64ca4438b22c8ee81efd2dbaae0c2 d494f95db92e331f7d3606766f493bc90a861156 M	Jenkinsfile
+:100755 100755 10a4cc19ce352366bcbd90e321964bbdfa458c5f e15e18ac9b445662cf3ba02a329baeccd3487281 M	infrastructure/ansible/jp/tasks/download_maven.yml

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<artifactory-file>
+  <repoPath>
+    <repoKey>libs-snapshot-local</repoKey>
+    <path>pl/pandait/panda/0.0.2-SNAPSHOT/panda-0.0.2-20220427.094151-37.jar</path>
+    <folder>false</folder>
+  </repoPath>
+  <name>panda-0.0.2-20220427.094151-37.jar</name>
+  <created>1651052511731</created>
+  <lastModified>1651052511186</lastModified>
+  <size>27351608</size>
+  <additionalInfo>
+    <createdBy>admin</createdBy>
+    <modifiedBy>admin</modifiedBy>
+    <lastUpdated>1651052511740</lastUpdated>
+    <checksumsInfo>
+      <checksums>
+        <checksum>
+          <type>sha1</type>
+          <original>64c98d2d5ee89d32cc4e50846d6ba42b6b150fdf</original>
+          <actual>64c98d2d5ee89d32cc4e50846d6ba42b6b150fdf</actual>
+        </checksum>
+        <checksum>
+          <type>md5</type>
+          <original>85ee308fada478f102654bae21be8db0</original>
+          <actual>85ee308fada478f102654bae21be8db0</actual>
+        </checksum>
+        <checksum>
+          <type>sha256</type>
+          <original>NO_ORIG</original>
+          <actual>ad4f71a294ae4a6a24d1b8b9389a177c0e50ee061b49d002b4682d16a560e6f1</actual>
+        </checksum>
+      </checksums>
+    </checksumsInfo>
+  </additionalInfo>
+</artifactory-file>

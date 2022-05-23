@@ -1,0 +1,129 @@
+28-Feb-2022 14:39:46.705 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+28-Feb-2022 14:40:20.191 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+28-Feb-2022 15:07:45.157 INFO [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+28-Feb-2022 15:07:46.094 SEVERE [localhost-startStop-5] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener]
+	java.lang.RuntimeException: Could not find bean of type 'org.artifactory.addon.LicenseAddonsManager'.
+		at org.artifactory.spring.ArtifactoryApplicationContext.beanForType(ArtifactoryApplicationContext.java:577)
+		at org.artifactory.spring.ArtifactoryApplicationContext.destroy(ArtifactoryApplicationContext.java:398)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener.contextDestroyed(ArtifactoryContextConfigListener.java:299)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4811)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5467)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1443)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1432)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+28-Feb-2022 15:23:25.212 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+28-Feb-2022 15:24:00.598 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+28-Feb-2022 15:27:18.237 INFO [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+28-Feb-2022 15:28:13.146 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+28-Feb-2022 15:28:36.938 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+28-Feb-2022 15:49:08.156 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+28-Feb-2022 15:49:41.545 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+28-Feb-2022 16:20:03.432 INFO [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+28-Feb-2022 16:20:03.622 SEVERE [localhost-startStop-5] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener]
+	java.lang.RuntimeException: Could not find bean of type 'org.artifactory.addon.LicenseAddonsManager'.
+		at org.artifactory.spring.ArtifactoryApplicationContext.beanForType(ArtifactoryApplicationContext.java:577)
+		at org.artifactory.spring.ArtifactoryApplicationContext.destroy(ArtifactoryApplicationContext.java:398)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener.contextDestroyed(ArtifactoryContextConfigListener.java:299)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4811)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5467)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1443)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1432)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+28-Feb-2022 16:23:37.986 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+28-Feb-2022 16:24:08.246 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+28-Feb-2022 17:35:28.568 INFO [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+28-Feb-2022 17:36:35.631 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+28-Feb-2022 17:37:11.655 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class [org.artifactory.lifecycle.webapp.servlet.ArtifactoryHomeConfigListener]
+	java.lang.IllegalStateException: Could not find database table: db_properties
+		at org.artifactory.converter.VersionProviderImpl.init(VersionProviderImpl.java:109)
+		at org.artifactory.lifecycle.webapp.servlet.BasicConfigurationManager.initVersion(BasicConfigurationManager.java:160)
+		at org.artifactory.lifecycle.webapp.servlet.BasicConfigurationManager.initArtifactoryInstallation(BasicConfigurationManager.java:139)
+		at org.artifactory.lifecycle.webapp.servlet.BasicConfigurationManager.initialize(BasicConfigurationManager.java:126)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryHomeConfigListener.initBasicConfigManager(ArtifactoryHomeConfigListener.java:61)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryHomeConfigListener.contextInitialized(ArtifactoryHomeConfigListener.java:53)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4763)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5232)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalStateException: Could not find database table: db_properties
+		at org.artifactory.common.config.db.DbVersionDao.isDbPropertiesTableExists(DbVersionDao.java:65)
+		at org.artifactory.converter.VersionProviderImpl.tryToResolveFromDb(VersionProviderImpl.java:197)
+		at org.artifactory.converter.VersionProviderImpl.getCompoundVersionDetailsFromDbIfExists(VersionProviderImpl.java:122)
+		at org.artifactory.converter.VersionProviderImpl.loadOriginalDbVersion(VersionProviderImpl.java:143)
+		at org.artifactory.converter.VersionProviderImpl.init(VersionProviderImpl.java:104)
+		... 18 more
+	Caused by: java.sql.SQLTimeoutException: Login timeout exceeded.
+		at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+		at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+		at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+		at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+		at org.apache.derby.jdbc.InternalDriver.timeLogin(Unknown Source)
+		at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+		at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+		at org.apache.derby.jdbc.EmbeddedDriver.connect(Unknown Source)
+		at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+		at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+		at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+		at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+		at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+		at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+		at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+		at org.jfrog.storage.wrapper.JFrogDataSourceWrapper.getConnection(JFrogDataSourceWrapper.java:102)
+		at org.jfrog.storage.wrapper.JFrogDataSourceWrapper.invoke(JFrogDataSourceWrapper.java:71)
+		at com.sun.proxy.$Proxy17.getConnection(Unknown Source)
+		at org.jfrog.storage.util.DbUtils.withMetadata(DbUtils.java:691)
+		at org.jfrog.storage.util.DbUtils.tableExists(DbUtils.java:273)
+		at org.artifactory.common.config.db.DbVersionDao.isDbPropertiesTableExists(DbVersionDao.java:62)
+		... 22 more
+	Caused by: ERROR XBDA0: Login timeout exceeded.
+		at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+		at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+		... 43 more
+28-Feb-2022 17:37:11.986 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class [org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener]
+	java.lang.IllegalStateException: Artifactory home not initialized.
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener.getArtifactoryHome(ArtifactoryContextConfigListener.java:203)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener.setSessionTrackingMode(ArtifactoryContextConfigListener.java:184)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener.init(ArtifactoryContextConfigListener.java:101)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener.contextInitialized(ArtifactoryContextConfigListener.java:89)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4763)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5232)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+28-Feb-2022 17:38:15.819 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+28-Feb-2022 17:46:32.817 INFO [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+28-Feb-2022 17:47:09.433 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+28-Feb-2022 17:47:48.248 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+28-Feb-2022 17:51:13.251 INFO [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+28-Feb-2022 17:51:58.756 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+28-Feb-2022 17:52:36.249 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+28-Feb-2022 17:55:00.922 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+28-Feb-2022 17:56:40.449 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+28-Feb-2022 18:16:04.075 INFO [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+28-Feb-2022 18:16:41.969 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+28-Feb-2022 18:17:08.487 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext

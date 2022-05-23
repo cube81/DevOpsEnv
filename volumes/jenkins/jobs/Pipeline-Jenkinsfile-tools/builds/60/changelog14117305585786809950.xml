@@ -1,0 +1,10 @@
+commit cad55d90110182a2f2b3dc48c383ca052e1642bb
+tree 8201969e818bffa1813d46a241fae8fb86655a9f
+parent 53a593f48ea2fb519aa341aec641445dca2b3988
+author Kuba <jp@pgms.pl> 2022-05-21 09:08:20 +0000
+committer Kuba <jp@pgms.pl> 2022-05-21 09:08:20 +0000
+
+    zmienione paczki w instalacji mvena w Ansible 3 pip
+
+
+:100755 100755 b1e8fce85e1594f012738dddc180f7f704cf42a0 1e498093d51f3d4d09ec902556597cb7b6c470f9 M	infrastructure/ansible/jp/tasks/download_maven.yml

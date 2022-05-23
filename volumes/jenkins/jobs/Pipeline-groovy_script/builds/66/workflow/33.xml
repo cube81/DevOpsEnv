@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@819.v37d707a_71d9b_">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2689.v434009a_31b_f1">
+    <parentIds>
+      <string>32</string>
+    </parentIds>
+    <id>33</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2689.v434009a_31b_f1">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>M2_HOME=/home/jenkins/tools/hudson.tasks.Maven_MavenInstallation/auto_maven</string>
+            <string>MAVEN_HOME=/home/jenkins/tools/hudson.tasks.Maven_MavenInstallation/auto_maven</string>
+            <string>PATH+MAVEN=/home/jenkins/tools/hudson.tasks.Maven_MavenInstallation/auto_maven/bin</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1144.v61c3180fa_03f">
+      <startTime>1651235148450</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

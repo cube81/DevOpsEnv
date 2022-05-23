@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.303.3
+Plugin-Dependencies: cloudbees-folder:6.714.v79e858ef76a_2;resolution:
+ =optional,credentials:2.6.1.1,plain-credentials:1.8,script-security:1
+ 138.v8e727069a_025,ssh-credentials:277.v95c2fec1c047,token-macro:293.
+ v283932a_0a_b_49
+Implementation-Title: Config File Provider Plugin
+Long-Name: Config File Provider Plugin
+Implementation-Version: 3.10.0
+Group-Id: org.jenkins-ci.plugins
+Minimum-Java-Version: 1.8
+Plugin-License-Name: MIT License
+Specification-Title: Config File Provider Plugin
+Plugin-ScmUrl: https://github.com/jenkinsci/config-file-provider-plugi
+ n
+Plugin-Version: 3.10.0
+Jenkins-Version: 2.303.3
+Url: https://github.com/jenkinsci/config-file-provider-plugin
+Short-Name: config-file-provider
+Plugin-License-Url: http://opensource.org/licenses/MIT
+Compatible-Since-Version: 2.15
+Plugin-Developers: Olivier Lamy:olamy:,Dominik Bartholdi:imod:
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.2
+Specification-Version: 3.10
+

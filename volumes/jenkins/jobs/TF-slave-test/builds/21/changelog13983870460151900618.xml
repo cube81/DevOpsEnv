@@ -1,0 +1,10 @@
+commit f480db6e634c21c1ca702b2fef3963b6719f53db
+tree 5c394f39d83680e2b7b6d8ed4c499a1b55e634f0
+parent 489f38eabdef5986e723bc263107bacb77efc782
+author Kuba <jp@pgms.pl> 2022-05-20 09:30:33 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 09:30:33 +0000
+
+    zmian w tf 9
+
+
+:100644 100644 51d7663a564edc3b04a49c419804e9b63c02c8fc 0b76ad145200b5e94fb097e74b8d50f9e473c68e M	Jenkinsfile

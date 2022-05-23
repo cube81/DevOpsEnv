@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>pl.jp</groupId>
+  <artifactId>jpapp</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <versioning>
+    <latest>0.0.3-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.2-SNAPSHOT</version>
+      <version>0.0.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220519121943</lastUpdated>
+  </versioning>
+</metadata>

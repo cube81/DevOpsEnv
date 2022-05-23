@@ -1,0 +1,417 @@
+[http.routers]
+
+  
+  
+  
+  [http.routers.jfac_01fwm128yng63m049d2q261cpd-0-jfac_01fwm128yng63m049d2q261cpd-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jfac_01fwm128yng63m049d2q261cpd-771756b327c9"
+    priority = 2023
+    rule = "Path(`/{part0:com\\.jfrog\\.access\\..*}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jfac_01fwm128yng63m049d2q261cpd-0-jfac_01fwm128yng63m049d2q261cpd-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jfac_01fwm128yng63m049d2q261cpd-771756b327c9"
+    priority = 2023
+    rule = "Path(`/{part0:com\\.jfrog\\.access\\..*}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+  
+  [http.routers.jfac_01fwm128yng63m049d2q261cpd-1-jfac_01fwm128yng63m049d2q261cpd-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jfac_01fwm128yng63m049d2q261cpd-771756b327c9"
+    priority = 2009
+    rule = "Path(`/{part0:access}/{part1:.*}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jfac_01fwm128yng63m049d2q261cpd-1-jfac_01fwm128yng63m049d2q261cpd-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jfac_01fwm128yng63m049d2q261cpd-771756b327c9"
+    priority = 2009
+    rule = "Path(`/{part0:access}/{part1:.*}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+
+  
+  
+  
+  [http.routers.jffe_000-0-jffe_000-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jffe_000-771756b327c9"
+    priority = 2001
+    rule = "Path(`/`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jffe_000-0-jffe_000-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jffe_000-771756b327c9"
+    priority = 2001
+    rule = "Path(`/`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+  
+  [http.routers.jffe_000-1-jffe_000-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jffe_000-771756b327c9"
+    priority = 2003
+    rule = "Path(`/{part0:ui}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jffe_000-1-jffe_000-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jffe_000-771756b327c9"
+    priority = 2003
+    rule = "Path(`/{part0:ui}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+  
+  [http.routers.jffe_000-2-jffe_000-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jffe_000-771756b327c9"
+    priority = 2008
+    rule = "Path(`/{part0:ui}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jffe_000-2-jffe_000-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jffe_000-771756b327c9"
+    priority = 2008
+    rule = "Path(`/{part0:ui}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+
+  
+  
+  
+  [http.routers.jfint_01fwm128yng63m049d2q261cpd-0-jfint_01fwm128yng63m049d2q261cpd-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jfint_01fwm128yng63m049d2q261cpd-771756b327c9"
+    priority = 2028
+    rule = "Path(`/{part0:com\\.jfrog\\.integration\\..*}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jfint_01fwm128yng63m049d2q261cpd-0-jfint_01fwm128yng63m049d2q261cpd-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jfint_01fwm128yng63m049d2q261cpd-771756b327c9"
+    priority = 2028
+    rule = "Path(`/{part0:com\\.jfrog\\.integration\\..*}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+  
+  [http.routers.jfint_01fwm128yng63m049d2q261cpd-1-jfint_01fwm128yng63m049d2q261cpd-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jfint_01fwm128yng63m049d2q261cpd-771756b327c9"
+    priority = 2017
+    rule = "Path(`/{part0:integration}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jfint_01fwm128yng63m049d2q261cpd-1-jfint_01fwm128yng63m049d2q261cpd-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jfint_01fwm128yng63m049d2q261cpd-771756b327c9"
+    priority = 2017
+    rule = "Path(`/{part0:integration}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+
+  
+  
+  
+  [http.routers.jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-0-jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9"
+    priority = 2014
+    rule = "Path(`/{part0:metadata}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-0-jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9"
+    priority = 2014
+    rule = "Path(`/{part0:metadata}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+
+  
+  
+  
+  [http.routers.jfob_01fwm1x2pksj9n184sda2g0rfq-0-jfob_01fwm1x2pksj9n184sda2g0rfq-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jfob_01fwm1x2pksj9n184sda2g0rfq-771756b327c9"
+    priority = 2019
+    rule = "Path(`/{part0:observability}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jfob_01fwm1x2pksj9n184sda2g0rfq-0-jfob_01fwm1x2pksj9n184sda2g0rfq-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jfob_01fwm1x2pksj9n184sda2g0rfq-771756b327c9"
+    priority = 2019
+    rule = "Path(`/{part0:observability}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+
+  
+  
+  
+  [http.routers.jfrt_01fwm1x2pksj9n184sda2g0rfq-0-jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9"
+    priority = 2027
+    rule = "Path(`/{part0:.well-known}/{part1:terraform.json}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jfrt_01fwm1x2pksj9n184sda2g0rfq-0-jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9"
+    priority = 2027
+    rule = "Path(`/{part0:.well-known}/{part1:terraform.json}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+  
+  [http.routers.jfrt_01fwm1x2pksj9n184sda2g0rfq-1-jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9"
+    priority = 2012
+    rule = "Path(`/{part0:artifactory}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jfrt_01fwm1x2pksj9n184sda2g0rfq-1-jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9"
+    priority = 2012
+    rule = "Path(`/{part0:artifactory}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+  
+  [http.routers.jfrt_01fwm1x2pksj9n184sda2g0rfq-2-jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9"
+    priority = 2017
+    rule = "Path(`/{part0:artifactory}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jfrt_01fwm1x2pksj9n184sda2g0rfq-2-jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9"
+    priority = 2017
+    rule = "Path(`/{part0:artifactory}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+  
+  [http.routers.jfrt_01fwm1x2pksj9n184sda2g0rfq-3-jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9-internal]
+    entryPoints = ["internal"]
+    service = "jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9"
+    priority = 2008
+    rule = "Path(`/{part0:v2}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader"]
+  
+
+    
+  
+  [http.routers.jfrt_01fwm1x2pksj9n184sda2g0rfq-3-jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9-external]
+    entryPoints = ["external"]
+    service = "jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9"
+    priority = 2008
+    rule = "Path(`/{part0:v2}/{part1:(.*)}`) && Headers(`X-JFrog-Route-To`,`771756b327c9`)"
+    middlewares = ["clearRouteToHeader","mtls"]
+  
+
+    
+  
+  
+  
+
+
+[http.services]
+
+  
+    
+    
+  
+    
+    
+  
+      [http.services.jfac_01fwm128yng63m049d2q261cpd-771756b327c9.loadBalancer]
+          passHostHeader = false
+      [[http.services.jfac_01fwm128yng63m049d2q261cpd-771756b327c9.loadBalancer.servers]]
+          url = "http://172.24.0.4:8082"
+  
+
+
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+      [http.services.jffe_000-771756b327c9.loadBalancer]
+          passHostHeader = false
+      [[http.services.jffe_000-771756b327c9.loadBalancer.servers]]
+          url = "http://172.24.0.4:8082"
+  
+
+
+  
+    
+    
+  
+    
+    
+  
+      [http.services.jfint_01fwm128yng63m049d2q261cpd-771756b327c9.loadBalancer]
+          passHostHeader = false
+      [[http.services.jfint_01fwm128yng63m049d2q261cpd-771756b327c9.loadBalancer.servers]]
+          url = "http://172.24.0.4:8082"
+  
+
+
+  
+    
+    
+  
+      [http.services.jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9.loadBalancer]
+          passHostHeader = false
+      [[http.services.jfmd_01fwm1qthqqcnqkd3y9hjm6rbw-771756b327c9.loadBalancer.servers]]
+          url = "http://172.24.0.4:8082"
+  
+
+
+  
+    
+    
+  
+      [http.services.jfob_01fwm1x2pksj9n184sda2g0rfq-771756b327c9.loadBalancer]
+          passHostHeader = false
+      [[http.services.jfob_01fwm1x2pksj9n184sda2g0rfq-771756b327c9.loadBalancer.servers]]
+          url = "http://172.24.0.4:8082"
+  
+
+
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+      [http.services.jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9.loadBalancer]
+          passHostHeader = false
+      [[http.services.jfrt_01fwm1x2pksj9n184sda2g0rfq-771756b327c9.loadBalancer.servers]]
+          url = "http://172.24.0.4:8082"
+  
+
+
+
+[http.middlewares]
+  [http.middlewares.clearRouteToHeader.headers.customRequestHeaders]
+    X-JFrog-Route-To = ""
+
+
+  [http.middlewares.retry.retry]
+    attempts = 2

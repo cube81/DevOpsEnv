@@ -1,0 +1,92 @@
+# This template is used to create routing rules for Traefik
+# References: https://doc.traefik.io/traefik/reference/dynamic-configuration/file/
+#             https://doc.traefik.io/traefik/routing/routers
+#             https://doc.traefik.io/traefik/routing/services
+
+[http.routers]
+
+
+
+  [http.routers.jfac_01fwm128yng63m049d2q261cpd-771756b327c9-0-rule0-internal]
+    entryPoints = ["internal"]
+    service = "jfac_01fwm128yng63m049d2q261cpd-771756b327c9-0"
+
+
+    rule = "PathPrefix(`/com.jfrog.access.`)"
+    
+
+
+  [http.routers.jfac_01fwm128yng63m049d2q261cpd-771756b327c9-0-rule0-external]
+    entryPoints = ["external"]
+    service = "jfac_01fwm128yng63m049d2q261cpd-771756b327c9-0"
+
+
+    rule = "PathPrefix(`/com.jfrog.access.`)"
+    
+    middlewares = ["mtls"]
+    
+
+
+
+
+
+
+  [http.routers.jfac_01fwm128yng63m049d2q261cpd-771756b327c9-1-rule0-internal]
+    entryPoints = ["internal"]
+    service = "jfac_01fwm128yng63m049d2q261cpd-771756b327c9-1"
+
+
+    rule = "PathPrefix(`/access/`)"
+    
+
+
+  [http.routers.jfac_01fwm128yng63m049d2q261cpd-771756b327c9-1-rule0-external]
+    entryPoints = ["external"]
+    service = "jfac_01fwm128yng63m049d2q261cpd-771756b327c9-1"
+
+
+    rule = "PathPrefix(`/access/`)"
+    
+    middlewares = ["mtls"]
+    
+
+
+
+
+
+[http.services]
+
+    [http.services.jfac_01fwm128yng63m049d2q261cpd-771756b327c9-0.loadBalancer]
+      passHostHeader = false
+    [[http.services.jfac_01fwm128yng63m049d2q261cpd-771756b327c9-0.loadBalancer.servers]]
+      url = "h2c://localhost:8045"
+
+    [http.services.jfac_01fwm128yng63m049d2q261cpd-771756b327c9-1.loadBalancer]
+      passHostHeader = false
+    [[http.services.jfac_01fwm128yng63m049d2q261cpd-771756b327c9-1.loadBalancer.servers]]
+      url = "http://localhost:8040"
+
+
+
+
+ 
+   
+  
+
+ 
+   
+  
+
+
+
+
+
+    
+        
+        
+    
+
+    
+        
+        
+    

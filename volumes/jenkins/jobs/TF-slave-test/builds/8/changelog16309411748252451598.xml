@@ -1,0 +1,10 @@
+commit dca3d46f6ebdcf2be3ae61aa6ce5a0d14c3d1ceb
+tree 32659efe211fc77ae66a53a070f1b3e5c8a1ab08
+parent c51ec67321491593b8123b3b5c7693b239e2291e
+author Kuba <jp@pgms.pl> 2022-05-20 08:39:56 +0000
+committer Kuba <jp@pgms.pl> 2022-05-20 08:39:56 +0000
+
+    kolejne zmiany w tf 2
+
+
+:100644 100644 0a0050db35ab5e7dd37c47c0886cbd717308799f 6f64d632f02380af0762d58a2964c497503a14d1 M	infrastructure/terraform/variables.tf

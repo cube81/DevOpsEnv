@@ -1,0 +1,50 @@
+23-Feb-2022 19:29:47.581 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+23-Feb-2022 19:30:52.644 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Feb-2022 19:31:08.975 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class [org.artifactory.lifecycle.webapp.servlet.ArtifactoryHomeConfigListener]
+	java.lang.IllegalStateException: Failed resolving master key; Missing master key
+		at org.jfrog.security.common.KeyUtils.keyResolutionFailure(KeyUtils.java:152)
+		at org.jfrog.security.common.KeyUtils.waitForKey(KeyUtils.java:81)
+		at org.artifactory.storage.db.init.MasterKeyBootstrapUtil.getMasterKey(MasterKeyBootstrapUtil.java:194)
+		at org.artifactory.storage.db.init.MasterKeyBootstrapUtil.handleMasterKey(MasterKeyBootstrapUtil.java:68)
+		at org.artifactory.lifecycle.webapp.servlet.BasicConfigurationManager.initArtifactoryInstallation(BasicConfigurationManager.java:142)
+		at org.artifactory.lifecycle.webapp.servlet.BasicConfigurationManager.initialize(BasicConfigurationManager.java:126)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryHomeConfigListener.initBasicConfigManager(ArtifactoryHomeConfigListener.java:61)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryHomeConfigListener.contextInitialized(ArtifactoryHomeConfigListener.java:53)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4763)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5232)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+23-Feb-2022 19:31:09.050 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class [org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener]
+	java.lang.IllegalStateException: Artifactory home not initialized.
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener.getArtifactoryHome(ArtifactoryContextConfigListener.java:203)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener.setSessionTrackingMode(ArtifactoryContextConfigListener.java:184)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener.init(ArtifactoryContextConfigListener.java:101)
+		at org.artifactory.lifecycle.webapp.servlet.ArtifactoryContextConfigListener.contextInitialized(ArtifactoryContextConfigListener.java:89)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4763)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5232)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+23-Feb-2022 19:41:51.994 INFO [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Feb-2022 19:43:42.794 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+23-Feb-2022 19:44:53.489 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Feb-2022 19:52:48.702 INFO [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Feb-2022 19:54:38.479 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+23-Feb-2022 19:55:09.510 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext

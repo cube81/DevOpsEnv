@@ -1,0 +1,97 @@
+# This template is used to create routing rules for Traefik
+# References: https://doc.traefik.io/traefik/reference/dynamic-configuration/file/
+#             https://doc.traefik.io/traefik/routing/routers
+#             https://doc.traefik.io/traefik/routing/services
+
+[http.routers]
+
+
+
+  [http.routers.jfint_01fwm128yng63m049d2q261cpd-771756b327c9-0-rule0-internal]
+    entryPoints = ["internal"]
+    service = "jfint_01fwm128yng63m049d2q261cpd-771756b327c9-0"
+
+
+    rule = "PathPrefix(`/integration/`)"
+    middlewares = ["jfint_01fwm128yng63m049d2q261cpd-771756b327c9-0-0-strip"]
+
+
+  [http.routers.jfint_01fwm128yng63m049d2q261cpd-771756b327c9-0-rule0-external]
+    entryPoints = ["external"]
+    service = "jfint_01fwm128yng63m049d2q261cpd-771756b327c9-0"
+
+
+    rule = "PathPrefix(`/integration/`)"
+    middlewares = ["jfint_01fwm128yng63m049d2q261cpd-771756b327c9-0-0-strip","mtls"]
+
+
+
+
+
+
+  [http.routers.jfint_01fwm128yng63m049d2q261cpd-771756b327c9-1-rule0-internal]
+    entryPoints = ["internal"]
+    service = "jfint_01fwm128yng63m049d2q261cpd-771756b327c9-1"
+
+
+    rule = "PathPrefix(`/com.jfrog.integration.`)"
+    
+
+
+  [http.routers.jfint_01fwm128yng63m049d2q261cpd-771756b327c9-1-rule0-external]
+    entryPoints = ["external"]
+    service = "jfint_01fwm128yng63m049d2q261cpd-771756b327c9-1"
+
+
+    rule = "PathPrefix(`/com.jfrog.integration.`)"
+    
+    middlewares = ["mtls"]
+    
+
+
+
+
+
+[http.services]
+
+    [http.services.jfint_01fwm128yng63m049d2q261cpd-771756b327c9-0.loadBalancer]
+      passHostHeader = false
+    [[http.services.jfint_01fwm128yng63m049d2q261cpd-771756b327c9-0.loadBalancer.servers]]
+      url = "http://localhost:8071"
+
+    [http.services.jfint_01fwm128yng63m049d2q261cpd-771756b327c9-1.loadBalancer]
+      passHostHeader = false
+    [[http.services.jfint_01fwm128yng63m049d2q261cpd-771756b327c9-1.loadBalancer.servers]]
+      url = "h2c://localhost:8072"
+
+
+
+
+ 
+   
+     
+   
+  
+
+ 
+   
+  
+
+
+
+[http.middlewares]
+
+
+
+    
+        
+        
+            [http.middlewares.jfint_01fwm128yng63m049d2q261cpd-771756b327c9-0-0-strip.stripPrefix]
+              prefixes = ["/integration/"]
+        
+    
+
+    
+        
+        
+    

@@ -1,0 +1,31 @@
+<l:dependencies xmlns:l='licenses' version='2.2' artifactId='ivy-plugin' groupId='org.jenkins-ci.plugins'>
+  <l:dependency version='2.2' artifactId='ivy-plugin' groupId='org.jenkins-ci.plugins' name='Ivy Plugin' url='https://wiki.jenkins.io/display/JENKINS/Ivy+Plugin'>
+    <l:description>This plugin adds Ivy support to Jenkins</l:description>
+  </l:dependency>
+  <l:dependency version='1.9.12' artifactId='cloning' groupId='uk.com.robust-it' name='cloning' url='https://code.google.com/p/cloning/'>
+    <l:description>
+                The cloning library is a small, open source (Apache
+                licensed) Java library which deep-clones objects. The
+                objects do not have to implement the Cloneable
+                interface. Effectively, this library can clone ANY
+                Java object. It can be used i.e. in cache
+                implementations, if you don't want the cached object
+                to be modified or whenever you want to create a deep
+                copy of an object.
+        </l:description>
+    <l:license url='http://www.apache.org/licenses/LICENSE-2.0' name='Apache License, Version 2.0' />
+  </l:dependency>
+  <l:dependency version='2.5.0' artifactId='ivy' groupId='org.apache.ivy' name='Apache Ivy' url='http://ant.apache.org/ivy/'>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='0.1.55' artifactId='jsch' groupId='com.jcraft' name='JSch' url='http://www.jcraft.com/jsch/'>
+    <l:description>JSch is a pure Java implementation of SSH2</l:description>
+    <l:license url='http://www.jcraft.com/jsch/LICENSE.txt' name='Revised BSD' />
+  </l:dependency>
+  <l:dependency version='2.2' artifactId='commons-vfs2' groupId='org.apache.commons' name='Apache Commons VFS' url='http://commons.apache.org/proper/commons-vfs/'>
+    <l:description>Apache Commons VFS is a Virtual File System library.</l:description>
+  </l:dependency>
+  <l:dependency version='3.0.1' artifactId='objenesis' groupId='org.objenesis' name='Objenesis' url='http://objenesis.org'>
+    <l:description>A library for instantiating Java objects</l:description>
+  </l:dependency>
+</l:dependencies>

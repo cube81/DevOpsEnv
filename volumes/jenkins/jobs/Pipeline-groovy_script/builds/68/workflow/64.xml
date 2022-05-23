@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@819.v37d707a_71d9b_">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2689.v434009a_31b_f1">
+    <parentIds>
+      <string>63</string>
+    </parentIds>
+    <id>64</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2689.v434009a_31b_f1">
+      <arguments>
+        <entry>
+          <string>name</string>
+          <string>Run Docker app</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1144.v61c3180fa_03f">
+      <startTime>1651247793411</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

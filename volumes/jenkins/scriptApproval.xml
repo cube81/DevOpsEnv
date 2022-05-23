@@ -1,0 +1,140 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<scriptApproval plugin="script-security@1172.v35f6a_0b_8207e">
+  <approvedScriptHashes>
+    <string>004f0697396a6a53544d3c12a7c69617dc23f035</string>
+    <string>017d0db438428731cd600b6ebda805065433520f</string>
+    <string>110717fa19be6ac33206fef4ba65ef5622134b0c</string>
+    <string>1692800b37e8ddb614efc8e1ba34b4a8b1d662e8</string>
+    <string>18a7b7b8772747c4b3d2acbe90f8d5e54e19363c</string>
+    <string>1e2e1083845ce793ccfb150e5a23d839524d7b0f</string>
+    <string>1edd618d27c42f9a17f3ce120387cdcf92273cb3</string>
+    <string>1f4c2046ba92e3d7454bd632f193b1fd408d5b40</string>
+    <string>264e0294158306ea4293ea7555f19ef547428674</string>
+    <string>28ca8b332283c17b581494a73a6e418e67b9f853</string>
+    <string>295ee9a93263f364f233b721e7e71e0f7fef00cb</string>
+    <string>2ad456341e4f6b0c765e423ec7711b47660c6f0b</string>
+    <string>2e36e36793c4fd2b658c2f178cd81fc071f509e6</string>
+    <string>35232f9d3000a54cde5ffc384e35564ef419d4e9</string>
+    <string>37fe029ba3235f3485e38548c16683683ce9a75c</string>
+    <string>4860cce50b124150f01f8598d8cf8952a0e67eb2</string>
+    <string>4da93ce1b042ff74b3a47d87fde31c122ccf2d72</string>
+    <string>4f9b50e5331e9af0a8f16c94a22d2ba1da80b5ee</string>
+    <string>5232b3cd8bc0bd358b194662bc2ed7f7ce0769b0</string>
+    <string>5aa633c41fe90b16c184a64ed86dc6939492733d</string>
+    <string>5d3857ddd0b12c484b6e36b00d36b3c25e9e6fb4</string>
+    <string>60b13232d4a3d9698d0c714e9111904795d70ae8</string>
+    <string>641ee38689bdfe41049211e4d3ed170f3be9c25b</string>
+    <string>682f6ecb9ac47c6df4448ae66e1056c05f92b7ce</string>
+    <string>6a217b105e7f134b2a73198e4a13d72a276a35dd</string>
+    <string>6feaf02999892f6c381a2e133dcd3a065f4a4c67</string>
+    <string>73f651dc454a625ffda8bf142b5256be01322a5c</string>
+    <string>74e3cee3010f7838b2ef2439204d0894bc6c9bb9</string>
+    <string>7a763106cf897493a12db35e94540d90a98c257f</string>
+    <string>7b8279f8d8e2ce63d65bb8511c7d96b1e826e555</string>
+    <string>7c52fe12b847a178997acefaf2d319bbc0658efd</string>
+    <string>7c813e6a081a7a8cf6a9ffc6d8277abf669e0467</string>
+    <string>7c8fbfb3cac506b3381098dbd26660c15e0e730d</string>
+    <string>7e8b1d22d867461300abe630735a20084cc3964e</string>
+    <string>822207d35e64d87c997ce693113542b310ae52fc</string>
+    <string>839f5ef57bbd49204bf159e31bdd94308fe012e9</string>
+    <string>86a6e83d51e968afd4252c4e6fd4125eba62eb63</string>
+    <string>896a7f2cd46d0017a7779f2d1fad80a5e5b35819</string>
+    <string>8edcf1a576d8eac3e9baa48c77a53e3eb1dfe8ea</string>
+    <string>96d3de9c999b6c7792c43033f98e4c337e7b2aa8</string>
+    <string>98794d8dc685d6ecfb49b66d1212bab2a740f7be</string>
+    <string>a0fb886f591568a5b2d4058bbfe19435895fa5da</string>
+    <string>a2b5b901a9b222f0c7110750f4640eaf35e3e6e0</string>
+    <string>a2c147b11f76a3c7d99270aad8dc714cedf2340d</string>
+    <string>a350290e1f97fe207239b5b43301e92f7a9379c7</string>
+    <string>a89e2882c1ca8bb3c7a3311b9a3ca4385dd38ff4</string>
+    <string>a93233001ae8cc30c858685bf294f3e8c416684b</string>
+    <string>ad25d84241fe1f410f4c4a1d9c8800bdb00d00bd</string>
+    <string>b23f71185dc7865df95eecf7e45b1e6864abc7e0</string>
+    <string>b3cd2309fc015a8189fcf82d7a65af07e19cb7a3</string>
+    <string>b4ea23229abec69c9427eaf8685df895fd3086de</string>
+    <string>c79d1b8d941b553262a62888b4b6088ddd066587</string>
+    <string>ca9687e0557ca72454bdda8181288c6e4530ccb2</string>
+    <string>ce0f8f38a925c674ef98fb12c9fde0bb0969d0a3</string>
+    <string>d5d24bcddbe6cf91b1fea92fb41b0846b465a5cc</string>
+    <string>d7674231c568f4dbe13c02d13a782c9ec082bf48</string>
+    <string>d7b0f5e33fc01a7c9e5114aaea22318a6939937e</string>
+    <string>dd68e73fa4aacb35b9f5922c29000d64ce00edb9</string>
+    <string>e195a2ee3d416c63317fdfec399cac14f9618402</string>
+    <string>e783774cf89fc45894f7fec4a3f73a5accf337f3</string>
+    <string>ea275d2520a50403c1f654a19be38677d0862483</string>
+    <string>eb9b23a434660d7984b3e41cad0e8328f2a05ce3</string>
+    <string>f141197ea36e6469fed110736d7c393f6c0d750c</string>
+    <string>f3c02e46bb54d473394b12aded86ad56c5b9fa93</string>
+    <string>f581cd0ede3ccaa383431a2b85278abf70de8bd0</string>
+    <string>f9c84b4f60f5584dd924980855b72b65f655109d</string>
+    <string>fa6e441a295bf58db0e91817d63257c676a8123e</string>
+  </approvedScriptHashes>
+  <approvedSignatures/>
+  <aclApprovedSignatures/>
+  <approvedClasspathEntries/>
+  <pendingScripts>
+    <pendingScript>
+      <context>
+        <user>anonymous</user>
+        <item>TF-slave-test</item>
+        <key>TF-slave-test</key>
+      </context>
+      <script>pipeline {
+    agent {
+        label &apos;docker-slave&apos;
+    }
+
+  tools {
+    terraform &apos;Terraform&apos;
+  }
+
+  environment {
+    ANSIBLE = tool name: &apos;Ansible&apos;, type: &apos;com.cloudbees.jenkins.plugins.customtools.CustomTool&apos;
+  }
+  stages {
+    stage(&apos;Test installation&apos;) {
+      steps {
+        sh &apos;terraform --version&apos;
+        sh &apos;ansible --version&apos;
+      }
+    }
+    stage(&quot;Test credek&quot;){
+        steps {
+            withCredentials([[$class: &apos;AmazonWebServicesCredentialsBinding&apos;,credentialsId: &apos;awsjp3-akid&apos;]]){
+                sh &apos;env|grep AWS&apos;
+        }
+    }
+  }
+  
+          stage(&apos;Get Code&apos;) {
+            steps {
+                // Get some code from a GitHub repository
+                pwd()
+                git branch: &apos;main&apos;, url: &apos;https://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@github.com/cube81/jp_application.git/&apos;
+                //checkout scm
+            }
+        }
+        
+        stage(&apos;Run terraform&apos;) {
+            steps {
+                dir(&apos;infrastructure/terraform&apos;) {
+                    sh &apos;terraform init&apos;
+                    withCredentials([file(credentialsId: &apos;awsjp3-pem&apos;, variable: &apos;terraformjp&apos;)]) {
+                        sh &quot;cp \$terraformjp ../jp3.pem&quot;
+                    }
+                    withCredentials([[$class: &apos;AmazonWebServicesCredentialsBinding&apos;,credentialsId: &apos;awsjp3-akid&apos;]]){  
+                        //sh &apos;terraform plan -var-file ./jp.tfvars&apos;     
+                        sh &apos;terraform apply -var-file ./jp.tfvars -auto-approve&apos;
+                    }
+                } 
+            }
+        }
+  
+}
+}</script>
+      <language>groovy</language>
+    </pendingScript>
+  </pendingScripts>
+  <pendingSignatures/>
+  <pendingClasspathEntries/>
+</scriptApproval>
